@@ -1,0 +1,37 @@
+<svg id="Component_21_1" data-name="Component 21 – 1" xmlns="http://www.w3.org/2000/svg" width="753.894" height="236" viewBox="0 0 753.894 236">
+  <line id="Line_49" data-name="Line 49" x2="737.229" transform="translate(16.545 183.009)" fill="none" stroke="#dcdbdb" stroke-miterlimit="10" stroke-width="0.24"/>
+  <line id="Line_50" data-name="Line 50" x2="737.229" transform="translate(16.545 148.423)" fill="none" stroke="#dcdbdb" stroke-miterlimit="10" stroke-width="0.24"/>
+  <line id="Line_51" data-name="Line 51" x2="737.229" transform="translate(16.545 113.856)" fill="none" stroke="#dcdbdb" stroke-miterlimit="10" stroke-width="0.24"/>
+  <line id="Line_52" data-name="Line 52" x2="737.229" transform="translate(16.545 79.271)" fill="none" stroke="#dcdbdb" stroke-miterlimit="10" stroke-width="0.24"/>
+  <line id="Line_53" data-name="Line 53" x2="737.229" transform="translate(16.545 44.703)" fill="none" stroke="#dcdbdb" stroke-miterlimit="10" stroke-width="0.24"/>
+  <g id="Component_20_1" data-name="Component 20 – 1">
+    <path id="Rectangle_169" data-name="Rectangle 169" d="M0,0H737.229V207.459H0V0Z" transform="translate(16.545 10.117)" fill="none" stroke="#dcdbdb" stroke-width="0.24"/>
+    <g id="Component_19_1" data-name="Component 19 – 1">
+      <text id="_0" data-name="0" transform="translate(7.096 217.824)" fill="#6c757d" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">0</tspan></text>
+      <text id="JAN" transform="translate(79 233)" fill="#6c757d" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="-25.719" y="0">Valaya Name</tspan></text>
+      <text id="FEB" transform="translate(129 233)" fill="#6c757d" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Valaya Name</tspan></text>
+      <text id="_10" data-name="10" transform="translate(1.676 183.185)" fill="#6c757d" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">10</tspan></text>
+      <text id="_20" data-name="20" transform="translate(0.532 148.543)" fill="#6c757d" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">20</tspan></text>
+      <text id="_30" data-name="30" transform="translate(0.532 113.903)" fill="#6c757d" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">30</tspan></text>
+      <text id="_40" data-name="40" transform="translate(0 79.281)" fill="#6c757d" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">40</tspan></text>
+      <text id="_50" data-name="50" transform="translate(0.532 44.641)" fill="#6c757d" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">50</tspan></text>
+      <text id="_60" data-name="60" transform="translate(0.286 10)" fill="#6c757d" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">60</tspan></text>
+      <rect id="Rectangle_171" data-name="Rectangle 171" width="20" height="174.448" transform="translate(69 43.128)" fill="#f26728"/>
+      <rect id="Rectangle_173" data-name="Rectangle 173" width="20" height="196.015" transform="translate(148 21.561)" fill="#f26728"/>
+      <rect id="Rectangle_175" data-name="Rectangle 175" width="20" height="120.473" transform="translate(227 97.104)" fill="#f26728"/>
+      <rect id="Rectangle_177" data-name="Rectangle 177" width="20" height="129.92" transform="translate(306 87.656)" fill="#f26728"/>
+      <rect id="Rectangle_179" data-name="Rectangle 179" width="20" height="65.711" transform="translate(385 151.865)" fill="#f26728"/>
+      <rect id="Rectangle_181" data-name="Rectangle 181" width="20" height="201.673" transform="translate(464 16.151)" fill="#f26728"/>
+      <rect id="Rectangle_183" data-name="Rectangle 183" width="20" height="145.025" transform="translate(543 72.551)" fill="#f26728"/>
+      <text id="FEB-2" data-name="FEB" transform="translate(207 233)" fill="#6c757d" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Valaya Name</tspan></text>
+      <text id="FEB-3" data-name="FEB" transform="translate(286 233)" fill="#6c757d" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Valaya Name</tspan></text>
+      <text id="FEB-4" data-name="FEB" transform="translate(365 233)" fill="#6c757d" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Valaya Name</tspan></text>
+      <text id="FEB-5" data-name="FEB" transform="translate(444 233)" fill="#6c757d" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Valaya Name</tspan></text>
+      <text id="FEB-6" data-name="FEB" transform="translate(523 233)" fill="#6c757d" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Valaya Name</tspan></text>
+      <rect id="Rectangle_181-2" data-name="Rectangle 181" width="20" height="201.673" transform="translate(622 16.151)" fill="#f26728"/>
+      <text id="FEB-7" data-name="FEB" transform="translate(602 233)" fill="#6c757d" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Valaya Name</tspan></text>
+      <rect id="Rectangle_179-2" data-name="Rectangle 179" width="20" height="65.711" transform="translate(701 151.865)" fill="#f26728"/>
+      <text id="FEB-8" data-name="FEB" transform="translate(681 233)" fill="#6c757d" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Valaya Name</tspan></text>
+    </g>
+  </g>
+</svg>

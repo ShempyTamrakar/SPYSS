@@ -1,0 +1,35 @@
+export class Event{
+    eventName:string;
+    typeOfNamaskars:string;
+    countOfNamaskars:number;
+    upValaya:string;
+    valaya:string;
+    city:string;
+    district:string;
+    state:string;
+    country:string;
+    date:Date;
+    wing:string;
+    totalMen:number;
+    totalWomen:number;
+    totalYogabandhu:number;
+
+    constructor(eventName,typeOfNamaskars,countOfNamaskars,upValaya,valaya,city,district,state,country,date,wing
+        ,totalMen,totalWomen,totalYogabandhu)
+    {
+            this.eventName=eventName;
+            this.typeOfNamaskars=typeOfNamaskars;
+            this.countOfNamaskars=countOfNamaskars;
+            this.upValaya=upValaya;
+            this.valaya=valaya;
+            this.city=city;
+            this.district=district;
+            this.state=state;
+            this.country=country;
+            this.date=date;
+            this.wing=wing;
+            this.totalMen=totalMen;
+            this.totalWomen=totalWomen;
+            this.totalYogabandhu=totalYogabandhu
+    }
+}

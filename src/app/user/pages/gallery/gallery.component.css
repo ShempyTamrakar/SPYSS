@@ -1,0 +1,41 @@
+.button{
+    border-bottom:1px solid #E1E1E1;
+    margin: 2px 15px 40px;
+    padding: 20px;
+}
+
+.btn-primary{
+    background-color: #F26000 !important;
+    color: #ffff !important;
+    border: none;
+    width: 160px;
+    height: 42px;
+}
+.row{
+margin-bottom: 40px;
+}
+.upload_image{
+border: 1px dashed #F26000;
+background-color: #FFF1E6;
+margin: 39px 8px 0px 14px;
+width: 160px;
+height: 100px;
+color: #F26000;
+}
+
+
+.file-input {
+    display: none;
+  }
+  .mat-form-field {
+    
+    display: inherit;
+    position: relative;
+    text-align: center;
+}
+.uploaded_image{
+    display: inherit;
+    position: relative;
+    width: 300px;
+ 
+}

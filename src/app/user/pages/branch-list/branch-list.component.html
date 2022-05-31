@@ -1,0 +1,398 @@
+
+    <link rel="stylesheet" href="../../../../assets/styles.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
+<!-- top breadcrub section start here  -->
+<section class="breadcrub_top branch_list text-center position-relative">
+    <img src="../../../../assets/Images/brdcrm_background.png" class=" brdcrumb_img position-absolute" alt="">
+    <div class="page_brdcrumb position-relative">
+        <h1 class="brd_top_main_heading font_32 outfit_B primary_text_color">SPYSS – Our<span
+                class="secondary_text_color outfit_B"> Branches</span></h1>
+        <p class="brd_subheading text-white font_32 outifit_SB secondary_bg">Free Yoga Since 1980</p>
+        <nav aria-label="breadcrumb text-center ">
+            <ol class="breadcrumb top_brdcrm p-0">
+                <li class="breadcrumb-item "><a href="#" class="d-flex align-items-center"><img
+                            src="../../../../assets/Images/svg_icons/home.svg" class="brdcrum_home_icon me-1" alt="">
+                        Home <i class="bi bi-chevron-double-right"></i></a> </li>
+                <li class="breadcrumb-item active" aria-current="page">Our Branches</li>
+            </ol>
+        </nav>
+    </div>
+
+</section>
+<!-- top breadcrub section end here  -->
+<!-- Branch list section start here  -->
+
+<!-- search option start -->
+<section class="branch_grid_list">
+<div class="container grid_view" *ngIf="!isShow" id="">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="search_box">
+             <form action="#" class="form-group position-relative d-flex align-items-center mb-0 ">
+                 <img src="../../../../assets/Images/svg_icons/search.svg" class="img-fluid branch_search_icon" alt="">
+                <input type="search" placeholder="Search Your Branch Name" class="form-control branch_search" > 
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Short By
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <li><button class="dropdown-item" type="button">Active</button></li>
+                        <li><button class="dropdown-item" type="button">In active</button></li>
+                        <li><button class="dropdown-item" type="button">Location</button></li>
+                    </ul>
+                </div>
+                <button class="btn btn-primary">Search</button>
+             </form>
+            </div>
+        </div>
+    </div>
+<!-- search option end-->
+    <div class="row">
+        <div class="branch_layout_grid d-flex">
+            <div class="laout_grid ms-auto">
+                <a href="#" class="active_grid list_view_active" data-bs-toggle="tooltip" data-bs-placement="top" title="Grid View" >
+                    <i class="fi fi-rr-apps"></i></a>
+                     <a href="javascript:void(0);" class="in-active_grid list_view_active" (click)="demo()" id="list_view_active" data-bs-toggle="tooltip" data-bs-placement="top" title="list view">
+                         <i class="fi fi-rr-apps"></i></a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="single_branch_add_card">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card_top_single_branch_add d-flex align-items-start">
+                            <span class="title_icon_badge_pop d-flex align-items-center justify-content-center bg_1"><h5 class="card-title font_36 outfit_B text-white">b</h5></span>
+                            <span class="badge time_badge_single_branch_add d-flex align-items-center ms-auto"><i class="fi fi-rr-clock me-1"></i> 6 to 7:30 AM</span>
+                        </div>
+                        <div class="card_middle_single_branch_add">
+                            <h6 class="font_16 outfit_B secondary_text_color">Bangalore East</h6>
+                            <p class="font_14 redhat_M gray_theme_color">Branch Name : <span class="theme_black_color redhat_M">Rukmini</span></p>
+                        </div>
+                        <div class="card_bottom_single_branch_add">
+                            <p class="location theme_black_color font_14 redhat_M d-flex align-items-center"> <i class="fi fi-rr-marker me-2  secondary_text_color"></i> Rabindranath Tagore Nagar R.R.Nagar Road</p>
+                            <p class="call theme_black_color font_14 redhat_M d-flex align-items-center mt-4"><i class="fi fi-rr-phone-call me-2  secondary_text_color"></i>1234 567890</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="single_branch_add_card">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card_top_single_branch_add d-flex align-items-start">
+                            <span class="title_icon_badge_pop d-flex align-items-center justify-content-center bg_2">
+                                <h5 class="card-title font_36 outfit_B text-white">i</h5>
+                            </span>
+                            <span class="badge time_badge_single_branch_add d-flex align-items-center ms-auto"><i
+                                    class="fi fi-rr-clock me-1"></i> 6 to 7:30 AM</span>
+                        </div>
+                        <div class="card_middle_single_branch_add">
+                            <h6 class="font_16 outfit_B secondary_text_color">Indore</h6>
+                            <p class="font_14 redhat_M gray_theme_color">Branch Name : <span
+                                    class="theme_black_color redhat_M">Rukmini</span></p>
+                        </div>
+                        <div class="card_bottom_single_branch_add">
+                            <p class="location theme_black_color font_14 redhat_M d-flex align-items-center"> <i
+                                    class="fi fi-rr-marker me-2  secondary_text_color"></i> Rabindranath Tagore Nagar R.R.Nagar
+                                Road</p>
+                            <p class="call theme_black_color font_14 redhat_M d-flex align-items-center mt-4"><i
+                                    class="fi fi-rr-phone-call me-2  secondary_text_color"></i>1234 567890</p>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="single_branch_add_card">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card_top_single_branch_add d-flex align-items-start">
+                            <span class="title_icon_badge_pop d-flex align-items-center justify-content-center bg_3">
+                                <h5 class="card-title font_36 outfit_B text-white">b</h5>
+                            </span>
+                            <span class="badge time_badge_single_branch_add d-flex align-items-center ms-auto"><i
+                                    class="fi fi-rr-clock me-1"></i> 6 to 7:30 AM</span>
+                        </div>
+                        <div class="card_middle_single_branch_add">
+                            <h6 class="font_16 outfit_B secondary_text_color">Bangalore North</h6>
+                            <p class="font_14 redhat_M gray_theme_color">Branch Name : <span
+                                    class="theme_black_color redhat_M">Rukmini</span></p>
+                        </div>
+                        <div class="card_bottom_single_branch_add">
+                            <p class="location theme_black_color font_14 redhat_M d-flex align-items-center"> <i
+                                    class="fi fi-rr-marker me-2  secondary_text_color"></i> Rabindranath Tagore Nagar R.R.Nagar
+                                Road</p>
+                            <p class="call theme_black_color font_14 redhat_M d-flex align-items-center mt-4"><i
+                                    class="fi fi-rr-phone-call me-2  secondary_text_color"></i>1234 567890</p>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="single_branch_add_card">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card_top_single_branch_add d-flex align-items-start">
+                            <span class="title_icon_badge_pop d-flex align-items-center justify-content-center bg_4">
+                                <h5 class="card-title font_36 outfit_B text-white">b</h5>
+                            </span>
+                            <span class="badge time_badge_single_branch_add d-flex align-items-center ms-auto"><i
+                                    class="fi fi-rr-clock me-1"></i> 6 to 7:30 AM</span>
+                        </div>
+                        <div class="card_middle_single_branch_add">
+                            <h6 class="font_16 outfit_B secondary_text_color">Bangalore South</h6>
+                            <p class="font_14 redhat_M gray_theme_color">Branch Name : <span
+                                    class="theme_black_color redhat_M">Rukmini</span></p>
+                        </div>
+                        <div class="card_bottom_single_branch_add">
+                            <p class="location theme_black_color font_14 redhat_M d-flex align-items-center"> <i
+                                    class="fi fi-rr-marker me-2  secondary_text_color"></i> Rabindranath Tagore Nagar R.R.Nagar
+                                Road</p>
+                            <p class="call theme_black_color font_14 redhat_M d-flex align-items-center mt-4"><i
+                                    class="fi fi-rr-phone-call me-2  secondary_text_color"></i>1234 567890</p>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="single_branch_add_card">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card_top_single_branch_add d-flex align-items-start">
+                            <span class="title_icon_badge_pop d-flex align-items-center justify-content-center bg_5">
+                                <h5 class="card-title font_36 outfit_B text-white">n</h5>
+                            </span>
+                            <span class="badge time_badge_single_branch_add d-flex align-items-center ms-auto"><i
+                                    class="fi fi-rr-clock me-1"></i> 6 to 7:30 AM</span>
+                        </div>
+                        <div class="card_middle_single_branch_add">
+                            <h6 class="font_16 outfit_B secondary_text_color">North Kerla</h6>
+                            <p class="font_14 redhat_M gray_theme_color">Branch Name : <span
+                                    class="theme_black_color redhat_M">Rukmini</span></p>
+                        </div>
+                        <div class="card_bottom_single_branch_add">
+                            <p class="location theme_black_color font_14 redhat_M d-flex align-items-center"> <i
+                                    class="fi fi-rr-marker me-2  secondary_text_color"></i> Rabindranath Tagore Nagar R.R.Nagar
+                                Road</p>
+                            <p class="call theme_black_color font_14 redhat_M d-flex align-items-center mt-4"><i
+                                    class="fi fi-rr-phone-call me-2  secondary_text_color"></i>1234 567890</p>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="single_branch_add_card">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card_top_single_branch_add d-flex align-items-start">
+                            <span class="title_icon_badge_pop d-flex align-items-center justify-content-center bg_2">
+                                <h5 class="card-title font_36 outfit_B text-white">i</h5>
+                            </span>
+                            <span class="badge time_badge_single_branch_add d-flex align-items-center ms-auto"><i
+                                    class="fi fi-rr-clock me-1"></i> 6 to 7:30 AM</span>
+                        </div>
+                        <div class="card_middle_single_branch_add">
+                            <h6 class="font_16 outfit_B secondary_text_color">Indore</h6>
+                            <p class="font_14 redhat_M gray_theme_color">Branch Name : <span
+                                    class="theme_black_color redhat_M">Rukmini</span></p>
+                        </div>
+                        <div class="card_bottom_single_branch_add">
+                            <p class="location theme_black_color font_14 redhat_M d-flex align-items-center"> <i
+                                    class="fi fi-rr-marker me-2  secondary_text_color"></i> Rabindranath Tagore Nagar R.R.Nagar
+                                Road</p>
+                            <p class="call theme_black_color font_14 redhat_M d-flex align-items-center mt-4"><i
+                                    class="fi fi-rr-phone-call me-2  secondary_text_color"></i>1234 567890</p>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="single_branch_add_card">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card_top_single_branch_add d-flex align-items-start">
+                            <span class="title_icon_badge_pop d-flex align-items-center justify-content-center bg_3">
+                                <h5 class="card-title font_36 outfit_B text-white">b</h5>
+                            </span>
+                            <span class="badge time_badge_single_branch_add d-flex align-items-center ms-auto"><i
+                                    class="fi fi-rr-clock me-1"></i> 6 to 7:30 AM</span>
+                        </div>
+                        <div class="card_middle_single_branch_add">
+                            <h6 class="font_16 outfit_B secondary_text_color">Bangalore North</h6>
+                            <p class="font_14 redhat_M gray_theme_color">Branch Name : <span
+                                    class="theme_black_color redhat_M">Rukmini</span></p>
+                        </div>
+                        <div class="card_bottom_single_branch_add">
+                            <p class="location theme_black_color font_14 redhat_M d-flex align-items-center"> <i
+                                    class="fi fi-rr-marker me-2  secondary_text_color"></i> Rabindranath Tagore Nagar R.R.Nagar
+                                Road</p>
+                            <p class="call theme_black_color font_14 redhat_M d-flex align-items-center mt-4"><i
+                                    class="fi fi-rr-phone-call me-2  secondary_text_color"></i>1234 567890</p>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="single_branch_add_card">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card_top_single_branch_add d-flex align-items-start">
+                            <span class="title_icon_badge_pop d-flex align-items-center justify-content-center bg_1">
+                                <h5 class="card-title font_36 outfit_B text-white">b</h5>
+                            </span>
+                            <span class="badge time_badge_single_branch_add d-flex align-items-center ms-auto"><i
+                                    class="fi fi-rr-clock me-1"></i> 6 to 7:30 AM</span>
+                        </div>
+                        <div class="card_middle_single_branch_add">
+                            <h6 class="font_16 outfit_B secondary_text_color">Bangalore East</h6>
+                            <p class="font_14 redhat_M gray_theme_color">Branch Name : <span
+                                    class="theme_black_color redhat_M">Rukmini</span></p>
+                        </div>
+                        <div class="card_bottom_single_branch_add">
+                            <p class="location theme_black_color font_14 redhat_M d-flex align-items-center"> <i
+                                    class="fi fi-rr-marker me-2  secondary_text_color"></i> Rabindranath Tagore Nagar R.R.Nagar
+                                Road</p>
+                            <p class="call theme_black_color font_14 redhat_M d-flex align-items-center mt-4"><i
+                                    class="fi fi-rr-phone-call me-2  secondary_text_color"></i>1234 567890</p>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="com-md-12">
+            <div class="pagination_of_branch d-flex justify-content-center">
+                <nav aria-label="Page navigation branch_list">
+                    <ul class="pagination">
+                        <li class="page-item pagination_btn"><a class="page-link" href="javascript:void(0);"><i class="fi fi-rr-angle-left"></i></a></li>
+                        <li class="page-item"><a class="page-link active" href="javascript:void(0);">1</a></li>
+                        <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+                        <li class="page-item"><a class="page-link" href="javascript:void(0);">3</a></li>
+                        <li class="page-item"><a class="page-link" href="javascript:void(0);">...</a></li>
+                        <li class="page-item pagination_btn"><a class="page-link" href="javascript:void(0);"><i class="fi fi-rr-angle-right"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container list_view" *ngIf="isShow"> 
+    <div class="branch_layout_grid d-flex">
+        <div class="laout_grid ms-auto">
+            <a href="javascript:void(0);" class="in-active_grid list_view_active" (click)="no()" data-bs-toggle="tooltip" data-bs-placement="top"
+                title="Grid View"><i class="fi fi-rr-apps"></i></a> 
+            <a href="javascript:void(0);"
+                class="active_grid  list_view_active" (click)="demo()" id="list_view_active" data-bs-toggle="tooltip"
+                data-bs-placement="top" title="list view"><i class="fi fi-rr-apps"></i></a>
+        </div>
+    </div>
+    <div class="search_n_filter d-flex">
+        <div class="filters">
+            <div class="dropdown filter_branches">
+                <a class="btn btn-secondary dropdown-toggle d-flex align-items-center" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <i class="fi fi-rr-filter me-2"></i> Sort by
+                </a>
+            
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">City</a></li>
+                    <li><a class="dropdown-item" href="#">ACtive</a></li>
+                    <li><a class="dropdown-item" href="#">In-active</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="search_list_view  ms-auto">
+            <form action="#" class="d-flex align-items-center position-relative">
+                <input type="search" placeholder="Search your branch" class="form-control list_view_search_bar">
+                <button class="list_view_search_btn mt-1"><i class="fi fi-rr-search"></i></button>
+            </form>
+        </div>
+    </div>
+    <div class="list_view_branches">
+        <table class="table custom-table-striped">
+            <thead>
+                <tr>
+                    <th scope="col d-flex"> City <span class="fi fi-rr-exchange-alt table_head_design float-end"></span></th>
+                    <th scope="col d-flex"> Branch Name <span class="fi fi-rr-exchange-alt table_head_design float-end"></span></th>
+                    <th scope="col d-flex"> Address <span class="fi fi-rr-exchange-alt table_head_design float-end"></span></th>
+                    <th scope="col d-flex"> Timings <span class="fi fi-rr-exchange-alt table_head_design float-end"></span></th>
+                    <th scope="col d-flex"> Contact No. <span class="fi fi-rr-exchange-alt table_head_design float-end"></span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row">Bangalore East</td>
+                    <td>Rukmini</td>
+                    <td>R.R.Nagar Bangalore</td>
+                    <td>6 to 7:30AM</td>
+                    <td>1234-567890</td>
+                </tr>
+            <tr>
+                <td scope="row">Bangalore East</td>
+                <td>Rukmini</td>
+                <td>R.R.Nagar Bangalore</td>
+                <td>6 to 7:30AM</td>
+                <td>1234-567890</td>
+            </tr>
+                <tr>
+                    <td scope="row">Bangalore East</td>
+                    <td>Rukmini</td>
+                    <td>R.R.Nagar Bangalore</td>
+                    <td>6 to 7:30AM</td>
+                    <td>1234-567890</td>
+                </tr>
+                <tr>
+                    <td scope="row">Bangalore East</td>
+                    <td>Rukmini</td>
+                    <td>R.R.Nagar Bangalore</td>
+                    <td>6 to 7:30AM</td>
+                    <td>1234-567890</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="listview_paginations d-flex align-items-end">
+           <div class="listing_number d-flex align-items-center">
+               <span class="d-block font_14 redhat_M">Items per page</span>
+               <select class="form-select" aria-label="Default select example">
+                <option selected>10</option>
+                <option value="1">20</option>
+                <option value="2">30</option>
+                <option value="3">40</option>
+            </select>
+           </div>
+            <div class="pagination_of_branch d-inline-flex ms-auto">
+                <nav aria-label="Page navigation branch_list">
+                    <ul class="pagination">
+                        <li class="page-item pagination_btn"><a class="page-link" href="javascript:void(0);"><i class="fi fi-rr-angle-left"></i></a>
+                        </li>
+                        <li class="page-item"><a class="page-link active" href="javascript:void(0);">1</a></li>
+                        <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+                        <li class="page-item"><a class="page-link" href="javascript:void(0);">3</a></li>
+                        <li class="page-item"><a class="page-link" href="javascript:void(0);">...</a></li>
+                        <li class="page-item pagination_btn"><a class="page-link" href="javascript:void(0);"><i class="fi fi-rr-angle-right"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Branch list section end here  -->
+

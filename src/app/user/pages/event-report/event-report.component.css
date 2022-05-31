@@ -1,0 +1,36 @@
+.table th {
+    width: 100%;
+  
+  }
+  
+  th.mat-sort-header-sorted {
+    font-size: 14px;
+    color: #E1E1E1;
+    font-family: 'redhat-SB';
+    background-color: #2D4356;
+    white-space: nowrap;
+  }
+  
+  .mat-elevation-z8 {
+    width: 100%;
+    overflow-y: auto;
+    box-shadow: none;
+    white-space: nowrap;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .mat-footer-row .mat-footer-cell {
+    justify-content: center;
+    font-style: italic;
+  }
+  
+  .branch_img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  

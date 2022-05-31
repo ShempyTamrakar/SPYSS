@@ -1,0 +1,2315 @@
+
+/* All body */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit-R';
+}
+
+/* Font Family Start*/
+
+/* Font Family end*/
+
+/* Global Pre define Css start here */
+/* change container width */
+.container {
+    max-width: 1200px;
+}
+
+/* change container width */
+.outfit_R {
+    font-family: 'outfit-R';
+}
+
+.redhat_R {
+    font-family: 'redhat-R';
+}
+
+.outfit_M {
+    font-family: 'outfit-M';
+}
+
+.redhat_M {
+    font-family: 'redhat-M';
+}
+
+.outfit_SB {
+    font-family: 'outfit-SB';
+}
+
+.redhat_SB {
+    font-family: 'redhat-SB';
+}
+
+.outfit_B {
+    font-family: 'outfit-B';
+}
+
+.redhat_B {
+    font-family: 'redhat-B';
+}
+
+.outfit_XB {
+    font-family: 'outfit-EB';
+}
+
+.redhat_XB {
+    font-family: 'redhat-EB';
+}
+
+/* font sizing classes */
+
+.font_12 {
+    font-size: 12px;
+}
+
+.font_14 {
+    font-size: 14px;
+}
+
+.font_16 {
+    font-size: 16px;
+}
+
+.font_18 {
+    font-size: 18px;
+}
+
+.font_20 {
+    font-size: 20px;
+}
+
+.font_22 {
+    font-size: 22px;
+}
+
+.font_28 {
+    font-size: 28px;
+}
+
+.font_30 {
+    font-size: 30px;
+}
+
+.font_24 {
+    font-size: 24px;
+}
+
+.font_32 {
+    font-size: 32px;
+}
+
+.font_35 {
+    font-size: 36px;
+}
+
+.font_36 {
+    font-size: 36px;
+}
+
+.font_42 {
+    font-size: 42px;
+}
+
+.font_45 {
+    font-size: 45px;
+}
+
+.font_55 {
+    font-size: 55px;
+}
+
+.font_66 {
+    font-size: 66px;
+}
+
+/* font sizing classes end */
+/* spacing classes */
+
+/* padding spcing */
+
+.p_30 {
+    padding: 30px;
+}
+
+.py_60 {
+    padding: 60px 0;
+}
+
+.py_80 {
+    padding: 80px 0;
+}
+
+.py_100 {
+    padding: 100px 0;
+}
+
+.pt_80 {
+    padding-top: 80px;
+}
+
+.pb_10 {
+    padding-bottom: 10px;
+}
+
+.pb_80 {
+    padding-top: 80px;
+}
+
+.pb_90 {
+    padding-bottom: 90px;
+}
+
+.pr_30 {
+    padding-right: 30px;
+}
+
+.px_15 {
+    padding: 0px 15px;
+    ;
+}
+
+.px_10 {
+    padding: 0 10px;
+}
+
+/* padding spcing */
+
+
+/* margin spcing */
+.mt_10 {
+    margin-top: 10px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.mr_20 {
+    margin-right: 20px;
+}
+
+.mb_15 {
+    margin-bottom: 15px;
+}
+
+.mb_20 {
+    margin-bottom: 20px;
+}
+
+.mb_25 {
+    margin-bottom: 25px;
+}
+
+.mb_35 {
+    margin-bottom: 35px;
+}
+
+.mb_80 {
+    margin-bottom: 80px;
+}
+
+.mb_90 {
+    margin-bottom: 90px;
+}
+
+.mt_12 {
+    margin-top: 12px;
+}
+
+.mt_30 {
+    margin-top: 30px;
+}
+
+.mt_46 {
+    margin-top: 46px;
+}
+
+.mt_50 {
+    margin-top: 50px;
+}
+
+/* spacing classes  end*/
+/* button classes start here */
+.btn-primary {
+    background-color: #F26000;
+    padding: 7px 25px;
+    min-width: 120px;
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid transparent;
+    transition: ease 0.3s;
+    border-radius: 0;
+}
+
+.btn-primary:hover {
+    background: none;
+    color: #F26000;
+    border: 1px solid #F26000;
+}
+
+.btn_register {
+    background: #fff;
+    border-radius: 0;
+    color: #f26000;
+    font-size: 18px;
+    padding: 15px 50px;
+    font-family: 'redhat-R';
+}
+
+.btn_register:hover {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+    background: transparent;
+    box-shadow: none;
+    border-color: #f26000;
+    color: #F26000;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.form-select:focus {
+    box-shadow: none !important;
+}
+
+/* button classes end here */
+/* theme color classes */
+.primary_text_color {
+    color: #F26000;
+}
+
+.secondary_text_color {
+    color: #2D4356;
+}
+
+.dark_text_color {
+    color: #111010;
+}
+
+.theme_black_color {
+    color: #15181A;
+}
+
+.gray_text_color {
+    color: #707070;
+}
+
+.gray_theme_color {
+    color: #6C757D;
+}
+
+.text_light {
+    color: #FFFCFC;
+}
+
+.primary_bg {
+    background-color: #F26000;
+}
+
+.secondary_bg {
+    background-color: #2D4356;
+}
+
+/* some predefine bgcolor  */
+.bg_1 {
+    background: #F26000;
+    box-shadow: 0 3px 6px rgba(242, 96, 0, 0.12);
+}
+
+.bg_2 {
+    background: #0B5DC8;
+    box-shadow: 0 3px 6px rgba(7, 7, 7, 0.12);
+}
+
+.bg_3 {
+    background: #ECB500;
+    box-shadow: 0 3px 6px rgba(7, 7, 7, 0.12);
+}
+
+.bg_4 {
+    background: #64BF09;
+    box-shadow: 0 3px 6px rgba(7, 7, 7, 0.12);
+}
+
+.bg_5 {
+    background: #099ABF;
+    box-shadow: 0 3px 6px rgba(7, 7, 7, 0.12);
+}
+
+/* Global Pre define Css end here */
+
+
+/* header navbar css start here  */
+ul.user_navigation {
+    list-style: none;
+}
+
+ul.user_navigation li {
+    display: inline;
+    margin: 0 17px;
+}
+
+ul.page_navigation li a.nav-link {
+    font-size: 14px;
+    font-family: 'redhat-R';
+    padding: 0 15px !important;
+    color: #6C757D !important;
+    transition: ease 0.5s;
+}
+
+ul.page_navigation li a.nav-link:hover {
+    color: #F26000 !important;
+
+    transition: ease 0.5s;
+}
+
+ul.page_navigation li a.nav-link.active {
+    color: #F26000 !important;
+}
+
+ul.page_navigation li a.nav-link.active:before {
+    content: '';
+    width: 35px;
+    height: 2px;
+    background: #F26000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+a.navbar_dashboard {
+    color: #F26000;
+    text-decoration: none;
+    border-bottom: 2px solid;
+    font-size: 16px;
+    font-family: 'redhat-SM';
+}
+
+/* branch dropdown css */
+ul.branch_dropdown {
+    border-radius: 0 !important;
+    border-top: 1px solid #F26000;
+    margin-top: 2.125rem;
+    padding: 16px 17px;
+    min-width: 200px;
+}
+
+.branch_dropdown a.dropdown-item {
+    padding-top: 10px;
+    padding-left: 8px;
+    padding-bottom: 10px;
+    padding-right: 8px;
+    color: #2D4356;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+
+.branch_dropdown a.dropdown-item:hover {
+    background: #FFF1E6;
+    color: #F26000;
+}
+
+/* branch dropdown end  */
+/* header navbar css end here  */
+
+/* index page body start here  */
+ul.fixed_social_link {
+    position: fixed;
+    right: 0;
+    top: 25%;
+    z-index: 99;
+    list-style-type: none;
+}
+
+ul.fixed_social_link li a {
+    width: 64px;
+    height: 64px;
+    border-bottom: 1px solid #F26000;
+    background-color: #ffffff;
+}
+
+.custom_top_banner .owl-theme.sliding.owl-carousel.owl-loaded.owl-drag {
+    height: 100%;
+}
+
+.top_banner {
+    /* background-image: url('../assets/Images/top_bg_home_pg.png'); */
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1.top_banner_tittle {
+    color: #fff;
+}
+
+.top_banner_tittle span:before {
+    content: '';
+    position: absolute;
+    height: 11px;
+    width: 100%;
+    background-color: #ffffff;
+    bottom: 11px;
+    right: 0;
+    z-index: -1;
+}
+
+.top_banner_tittle span {
+    z-index: 1;
+}
+
+.top_banner_subhead {
+    line-height: 30px;
+    margin-top: 34px;
+}
+
+.top_banner a.btn.btn-primary {
+    min-height: 54px;
+    min-width: 170px;
+    font-size: 18px;
+}
+
+.top_banner .btn-outline-light {
+    min-height: 54px;
+    min-width: 178px;
+    border-radius: 0;
+}
+
+.nearest_branch:hover {
+    border-color: #ffffff;
+    color: #fff;
+}
+
+/* moto vision mision css start here  */
+section.moto_mision_vision {
+    background-image: url('../assets/Images/moto_bg.svg');
+
+}
+
+img.moto_top_right_img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+img.moto_main_img {
+    margin: 24px 0 24px 45px;
+    position: relative;
+}
+
+.moto_text_side {
+    margin: 0 35px;
+    border-bottom: 2px dashed #2D4356;
+}
+
+img.moto_right_top_img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.left_side_right_img {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+    background: #fff;
+    top: -100px;
+}
+
+p.subhead_moto {
+    line-height: 52px;
+    padding-bottom: 26px;
+}
+
+.one-family {
+    margin: 25px 0 0 35px;
+}
+
+/* moto vision mision css start here  */
+/* vision mision css start here  */
+.vision_mision {
+    margin-top: -100px;
+}
+
+.mision_heading {
+    margin-bottom: 23px;
+}
+
+.vision_image {
+    padding-top: 23px;
+    padding-bottom: 35px;
+    margin-left: 53px;
+}
+
+.vision_image .vision_img {
+    z-index: 9;
+}
+
+span.left_top_box {
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: 47px;
+    height: 43px;
+    background: #F26000;
+    z-index: 99;
+}
+
+span.left_top_box_outline {
+    position: absolute;
+    top: -13px;
+    left: -24px;
+    width: 74px;
+    height: 68px;
+    border: 1px solid #F26000;
+    /* z-index: -1; */
+}
+
+.vision_image:after {
+    content: '';
+    position: absolute;
+    top: 58px;
+    left: 61px;
+    width: calc(100% - 61px);
+    height: calc(100% - 58px);
+    background-color: #2D4356;
+    border-radius: 0 0 50px 0;
+    /* z-index: ; */
+}
+
+.vission_text {
+    padding-right: 33px;
+}
+
+.vision_mision .verticle_line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background-color: #f26000;
+    margin: auto;
+}
+
+.dotted_circle {
+    position: absolute;
+    top: 7px;
+    right: -14px;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    border-radius: 50px;
+    background-color: #F26000;
+}
+
+.mision_image .left_top_box {
+    left: auto;
+    right: 18px;
+    background-color: #2D4356;
+}
+
+.mision_image .left_top_box_outline {
+    left: auto;
+    right: 5px;
+    border-color: #2D4356;
+}
+
+.vision_image.mision_image:after {
+    background-color: #F26000;
+    left: auto !important;
+    right: 90px;
+    border-radius: 0 0 0 50px;
+}
+
+.mision_text .dotted_circle {
+    right: auto;
+    left: -14px;
+}
+
+.mision_text {
+    padding-left: 50px;
+}
+
+/* vision mision css end here  */
+
+/* Our value section css start here */
+
+.our_value_sec {
+    background-image: url('../assets/Images/value_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+}
+
+.value_main_text {
+    margin-bottom: 67px;
+}
+
+p.main_subheading_value {
+    line-height: 26px;
+}
+
+/* our value card css start here */
+.single_value_card {
+    border: 1px solid #E1E1E1;
+    padding: 29px 0;
+    background: #fff;
+    transition: ease 0.5s;
+    min-height: 449px;
+}
+
+.single_value_card:hover {
+    border-color: #F26000;
+    box-shadow: 0 7px 26px rgba(242, 96, 0, 0.16);
+}
+
+.single_value_card_text {
+    margin-top: 35px;
+}
+
+p.value_card_description {
+    color: #6C757D;
+}
+
+img.img-fluid.value_card_img {
+    width: 255px;
+    height: 255px;
+}
+
+/* our value card css end here */
+
+/* Our value section css end here */
+
+/* what we do section start here  */
+.what_we_do_sec {
+    background-image: url('../assets/Images/moto_bg.svg');
+    padding: 170px 0;
+
+}
+
+.bg_chakra {
+    animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.heilight {
+    padding: 14px 37px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.06);
+}
+
+p.what_we_do_sub_heading {
+    margin-top: 12px;
+    margin-bottom: 44px;
+    line-height: 26px;
+}
+
+p.what_we_do_other_text {
+    margin-bottom: 35px;
+}
+
+/* what we do section end here  */
+/* who we are sec css start here  */
+
+.who_we_are_image:after {
+    left: 100px;
+    top: 63px;
+}
+
+img.who_v_r_top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 14%;
+}
+
+img.who_v_r_right {
+    position: absolute;
+    top: 5%;
+    left: 89%;
+    width: 25%;
+    height: 30%;
+
+}
+
+img.who_v_r_bottom {
+    position: absolute;
+    bottom: 15%;
+    right: 89%;
+    height: 30%;
+    width: 30%;
+}
+
+img.center_who_v_r {
+    width: 40%;
+}
+
+p.who_v_r_other_subtittle {
+    color: #6C757D;
+    margin-top: 18px;
+    line-height: 25px;
+}
+
+p.who_v_r_subheading {
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.who_we_are_text a.btn-primary {
+    margin-top: 61px;
+    min-width: 170px;
+    min-height: 54px;
+}
+
+/* who we are sec css end here  */
+
+/* SPYSS was start section css start here */
+.spyss_start_sec {
+    background-image: url('../assets/Images/spyss_was.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.spyss_start_text h4 {
+    font-size: 28px;
+    line-height: 28px;
+}
+
+.spyss_start_text .spyss_subheading {
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+
+.spyss_start_text a.btn-primary {
+    min-width: 174px;
+    min-height: 54px;
+}
+
+/* SPYSS was start section css start here */
+/* carousel section css start here  */
+.testimonial_text_sec p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.single_card_carousel {
+    padding: 45px 32px;
+    background-color: #Ffff;
+}
+
+img.img-fluid.profile_img {
+    width: 74px;
+    height: 74px;
+}
+
+h5.user_name_testinomial {
+    color: #111010;
+    margin-left: 20px;
+}
+
+img.testimonial_quotes.img-fluid {
+    position: absolute;
+    width: 8%;
+    right: 0;
+    top: 0;
+}
+
+div.owl-item.active .item .single_card_carousel {
+    background: #f26000 !important;
+}
+
+.testimonial_text p {
+    color: #6C757D;
+}
+
+/* carousel section css end here  */
+
+/* get in touch section css start here */
+.contact_info_text {
+    padding: 65px 30px;
+}
+
+h4.get_in_touch_heading {
+    font-size: 41px;
+}
+
+.get_it_touch_subheading {
+    margin-bottom: 70px;
+}
+
+ul.contact_details li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+img.get_in_touch_bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+}
+
+.contact_form {
+    background: #fff;
+    margin: 65px 54px;
+    padding: 37px 42px;
+}
+
+.field_box {
+    margin-bottom: 24px;
+}
+
+input.form-control::placeholder {
+    color: #C6C6C6;
+}
+
+textarea.form-control::placeholder {
+    color: #C6C6C6;
+}
+
+button.btn-send_message {
+    min-width: 174px;
+    min-height: 54px;
+}
+
+.get_in_touch_bottom_sec {
+    margin-top: -100px;
+    padding-bottom: 100px;
+}
+
+.get_in_touch_top_right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 21%;
+}
+
+/* get in touch section css end here */
+
+/* footer section css start here */
+.py_100 {
+    padding: 100px 0px;
+}
+
+.footer_section {
+    background-color: #fef0e7;
+
+}
+
+.footer_section .foot_title {
+    font-size: 26px;
+    font-family: 'Outfit-B';
+    color: #111010;
+    margin-bottom: 19px;
+}
+
+.about_footer p {
+    font-size: 14px;
+    color: #6C757D;
+}
+
+.foot_links_items li {
+    list-style-type: none;
+}
+
+.foot_links_items li a {
+    font-size: 14px;
+    color: #111010;
+    display: block;
+    width: 100%;
+    padding: 7.5px 0px;
+}
+
+span.social_icons_box {
+    display: inline-flex;
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 6px rgba(242, 96, 0, 0.15);
+    position: relative;
+    margin-right: 10px;
+    background: #fff;
+}
+
+span.social_icons_box:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    box-shadow: 0 3px 6px rgba(242, 96, 0, .15) inset;
+}
+
+img.img-fluid.footer_bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+}
+
+.copyright_sec {
+    border-top: 3px solid #C7C7C7;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.copyright_sec h5 {
+    color: #6C757D;
+}
+
+/*footer section css end here */
+
+/***** Index Page CSS end HERE  *****/
+
+
+
+/****************************** ABout Page CSS start HERE  *************************************/
+
+/* 
+ section start Here  */
+.breadcrub_top {
+    padding-top: 89px;
+    padding-bottom: 203px;
+    background-color: #FFF1E6;
+}
+
+img.brdcrumb_img.position-absolute {
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+p.brd_subheading {
+    display: inline-block;
+    padding: 11px 28px;
+    margin: 23px 0 !important;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    display: none;
+}
+
+ol.top_brdcrm {
+    display: inline-flex;
+    background: transparent;
+}
+
+ol.top_brdcrm a:hover {
+    text-decoration: none;
+}
+
+.top_brdcrm .breadcrumb-item a {
+    color: #6C757D;
+    font-size: 18px;
+    font-family: 'redhat-M';
+}
+
+.top_brdcrm .breadcrumb-item.active {
+    color: #F26000;
+    font-size: 18px;
+    font-family: 'redhat-M';
+}
+
+/* about page moto section start here  */
+
+.about_page_moto {
+    margin-top: -48px;
+}
+
+section.moto_mision_vision.about_page_moto_mision_vision {
+    background-image: url('../assets/Images/white-bg.svg');
+}
+
+/* about page moto section end here  */
+/* about page value section start here  */
+section.our_value_sec.about_page_our_value {
+    background-image: url('../assets/Images/about_page_value_page.svg');
+    background-size: cover;
+}
+
+/* about page value section end here  */
+/* our_history section  */
+.our_history_sec {
+    padding: 77px 0;
+    min-height: 699px;
+}
+
+img.history_bg.position-absolute {
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.out_history_subheading {
+    color: #6C757D;
+    margin-top: 32px;
+    line-height: 36px;
+}
+
+/* our_history section  */
+/* how we are unique css start  */
+.how_we_are_unique {
+    background-image: url('../assets/Images/1191337.png');
+    background-size: cover;
+}
+
+.how_we_are_unique_text {
+    background: linear-gradient(to right, #f26000 0%, #ee9700 100%);
+    padding: 64px 29px 87px;
+}
+
+.how_we_are_unique_subheading {
+    padding: 13px 0 27px 0;
+    line-height: 26px;
+}
+
+.how_we_are_unique_others {
+    line-height: 26px;
+}
+
+img.our_history_top {
+    top: 0;
+    right: 0;
+}
+
+/* how we are unique css end  */
+/* wings of spyss sections Start here */
+section.wing_of_spyss {
+    background: #FFF1E6;
+}
+
+.wing_of_spyss img.brdcrumb_img {
+    top: 0;
+    bottom: 0;
+}
+
+.wings_text_sec {
+    margin-bottom: 76px;
+}
+
+/* tabs section  start*/
+
+.wings_tab .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background: transparent;
+    color: #f26000;
+    font-size: 20px;
+    transition: ease 0.5s;
+    margin-left: 25px;
+    white-space: nowrap;
+
+}
+
+.wings_tab .nav-pills .nav-link {
+    color: #6C757D;
+    font-size: 20px;
+    text-align: start;
+    font-family: 'outfit';
+}
+
+.wings_tab .nav-pills .nav-link:after {
+    content: '';
+    position: absolute;
+    left: -40px;
+    top: auto;
+    width: 0px;
+    height: 2px;
+    background-color: #F26000;
+}
+
+.wings_tab .nav-pills .nav-link.active:after {
+    width: 51px;
+    height: 2px;
+}
+
+.visible {
+    opacity: 0;
+}
+
+.wings_tab .nav-pills .nav-link.active .visible {
+    opacity: 1;
+    font-size: 10px;
+    font-family: 'outfit-B';
+}
+
+.wings_text_left {
+    padding: 51px 29px 51px 36px;
+    background: #2E3F4D;
+    color: #ffffff;
+    line-height: 36px;
+    min-height: 323px;
+    font-size: 18px;
+    font-family: 'outfit-R';
+}
+
+/* tabs section end */
+/* wings of spyss sections End here */
+/* about page get in touch start here  */
+img.about_page_swastik {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 17%;
+}
+
+/* about page get in touch  end here */
+
+/****************************** ABout Page CSS End HERE  *************************************/
+
+
+/****************************** Events Page CSS Start HERE  *************************************/
+/* section events css start here  */
+.tabs_events {
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.all_events_box {
+    border-bottom: 2px dashed #f26000;
+}
+
+.tabs_events.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: transparent;
+    font-size: 16px;
+    font-family: 'redhat-B';
+    color: #F26000;
+    border-radius: 0;
+    border-bottom: 3px solid;
+}
+
+.tabs_events.nav-pills .nav-link {
+    padding: 14px 35px;
+    transition: ease 0.5s;
+    color: #6C757D;
+    font-family: 'redhat-SB';
+}
+
+.upcoming_tab_details {
+    line-height: 26px;
+}
+
+.single_event_card .card {
+    border-radius: 0 0 50px 0;
+}
+
+.event_babdge {
+    background-color: #2D4356;
+    border: 1px solid #2D4356;
+    border-radius: 0;
+}
+
+.single_event_card .btn-primary {
+    padding: 10px 14px;
+}
+
+.preview_events {
+    font-size: 14px;
+    font-family: 'redhat-SB';
+    color: #2D4356;
+    margin-left: 19px;
+}
+
+.single_event_card {
+    margin-top: 40px;
+}
+
+.single_event_card:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.09);
+}
+
+.single_event_card {
+    border-radius: 0 0 50px 0;
+    transition: ease 0.5s;
+}
+
+/* section events css end here  */
+/* section events get in touch Start here */
+img.event_page_swastik {
+    position: absolute;
+    top: auto;
+    left: 0;
+}
+
+img.event_page_swastik_right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* section events get in touch  End here*/
+
+
+
+
+/****************************** Events Page CSS End HERE  *************************************/
+
+/****************************** Events Preview Page CSS Start HERE  ***************************/
+section.event_preview_banner {
+    height: 412px;
+    overflow: hidden;
+}
+
+img.top_banner_event {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.event_preview_banner:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(45deg, rgba(242, 96, 0, 1) 0%, rgba(121, 48, 0, 0) 100%);
+    z-index: 1;
+    content: '';
+}
+
+ul.events_social_links {
+    position: absolute;
+    bottom: 20px;
+    right: 75px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    z-index: 9;
+}
+
+ul.events_social_links li a {
+    box-shadow: none;
+}
+
+.events_social_links span.social_icons_box {
+    box-shadow: none;
+}
+
+.events_social_links span.social_icons_box:after {
+    box-shadow: none;
+}
+
+.event_top_description {
+    position: relative;
+    z-index: 99;
+
+}
+
+h1.event_details_main_heading {
+    font-size: 44px;
+}
+
+p.events_details_main_description {
+    line-height: 30px;
+}
+
+.preview_details_event {
+    padding: 51px 0 179px 0;
+}
+
+span.event_over_view {
+    border: 1px solid #f26000;
+    background: rgba(242, 96, 0, 0.11);
+    padding: 12px 37px;
+    color: #f26000;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: 'redhat-R';
+    display: inline-block;
+}
+
+.event_over_view.location {
+    color: #2D4356;
+    border-color: #2D4356;
+    background: rgb(45, 67, 86, 0.11);
+}
+
+.over_view_location {
+    padding-bottom: 33px;
+    border-bottom: 1px dashed rgba(46, 67, 86, 0.24);
+    margin-bottom: 35px;
+}
+
+.section_text_box {
+    margin-bottom: 64px;
+}
+
+.serction_text_box_sub_heading {
+    color: #15181A;
+}
+
+.serction_text_box_description {
+    color: #6C757D;
+}
+
+ul.details_section_list_type li {
+    padding-left: 47px;
+    list-style-type: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'redhat-M';
+    color: #6C757D;
+    flex-wrap: wrap;
+}
+
+ul.details_section_list_type li:last-child {
+    margin-bottom: 0;
+}
+
+ul.details_section_list_type li.details_section_list_item:before {
+    content: '';
+    position: absolute;
+    top: auto;
+    left: 16px;
+    width: 16px;
+    height: 16px;
+    background-color: #F26000;
+    border-radius: 50px;
+}
+
+.other_details_section_text_box {
+    color: #6C757D;
+}
+
+ul.sub_option_in_list {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+}
+
+ul.sub_option_in_list li {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: redhat-M;
+    color: #6C757D;
+}
+
+ul.sub_option_in_list li:before {
+    content: '';
+    position: absolute;
+    top: auto;
+    left: 16px;
+    width: 14px;
+    height: 14px;
+    background: transparent;
+    border: 3px solid #f26000;
+    border-radius: 50px;
+}
+
+.section_text_box .right-border {
+    border-right: 1px dashed #707070;
+}
+
+.section_text_box .right_side {
+    padding-left: 20px;
+}
+
+/****************************** Events Preview Page CSS End HERE  *****************************/
+/****************************** Branch list Page CSS Start HERE   *****************************/
+section.breadcrub_top.branch_list {
+    padding-bottom: 70px;
+}
+
+.search_box {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    padding: 17px 24px;
+    margin-top: -31px;
+    background: #fff;
+    margin-bottom: 45px
+}
+
+.search_box input.form-control.branch_search {
+    height: 31px;
+    border: none;
+    border-right: 1px solid #6C757D;
+    border-radius: 0;
+    margin-right: 20px;
+    padding-left: 35px;
+}
+
+.search_box button.btn.btn-primary {
+    margin-left: 20px;
+    min-width: 160px;
+    height: 51px;
+}
+
+.search_box button.btn.btn-primary:active {
+    background: transparent;
+    color: #f26000;
+    border-color: #F26000;
+}
+
+.search_box .btn-secondary {
+    background: transparent;
+    color: #2D4356;
+    font-size: 14px;
+    font-family: 'redhat-R';
+    width: 143px;
+    border: none;
+}
+
+.search_box .btn-secondary:active {
+    background: transparent !important;
+    color: #2D4356;
+    border: none;
+    box-shadow: none;
+}
+
+.search_box .btn-secondary:focus {
+    box-shadow: none;
+}
+
+.search_box .btn-secondary:not(:disabled):not(.disabled).active:focus,
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.show>.btn-secondary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+
+.search_box .dropdown-toggle::after {
+    margin-left: 3rem;
+}
+
+img.img-fluid.branch_search_icon {
+    position: absolute;
+    left: 0;
+    top: auto;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+a.active_grid {
+    padding: 8px;
+    background: #f26000;
+    color: #fff;
+}
+
+a.in-active_grid {
+    padding: 8px;
+    background: #FFF1E6;
+    color: #f26000;
+}
+
+.branch_layout_grid {
+    margin-bottom: 56px;
+}
+
+span.title_icon_badge_pop {
+    width: 75px;
+    height: 75px;
+    display: block;
+    border-radius: 100px;
+}
+
+span.title_icon_badge_pop h5 {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    line-height: 45px;
+}
+
+span.badge.time_badge_single_branch_add {
+    background: #F1F1F1;
+    padding: 9px 13px;
+    color: #6C757D;
+    font-size: 12px;
+    font-family: 'redhat-SB';
+}
+
+span.badge.time_badge_single_branch_add i {
+    line-height: 0;
+}
+
+.branch_grid_list {
+    padding-bottom: 132px;
+}
+
+.single_branch_add_card {
+    margin-bottom: 30px;
+    transition: ease 0.5s;
+}
+
+.card_middle_single_branch_add {
+    margin-top: 26px;
+    padding-bottom: 17px;
+    border-bottom: 1px dashed #2d435630;
+}
+
+.card_bottom_single_branch_add {
+    padding-top: 21px;
+}
+
+.card {
+    transition: ease 0.5s;
+}
+
+.single_branch_add_card:hover .card {
+    border-color: #f26000;
+    background: #FFF1E6;
+}
+
+.pagination_of_branch {
+    margin-top: 56px;
+}
+
+/* paginnation  */
+ul.pagination li.page-item.pagination_btn a.page-link {
+    background: #fff;
+    margin-top: 3px;
+}
+
+ul.pagination .page-item .page-link {
+    background: #F1F1F1;
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-family: 'redhat-SB';
+    color: #6C757D;
+}
+
+ul.pagination .page-item .page-link.active {
+    background: #f26000;
+    box-shadow: 0 3px 18px rgb(242, 96, 0, 0.16);
+    color: #fff;
+}
+
+ul.pagination .page-item {
+    margin: 0 3px;
+    min-width: 30px;
+    min-height: 30px;
+}
+
+/* list view container start here  */
+.list_view {
+    padding-top: 50px;
+}
+
+.search_n_filter {
+    margin: 46px 0 22px;
+}
+
+.search_n_filter .filters .filter_branches .btn-secondary {
+    background-color: #F1F1F1;
+    color: #6C757D;
+    border-color: #E1E1E1;
+    width: 142px;
+    text-align: left;
+    height: 45px;
+    padding: 6px 10px;
+}
+
+.search_n_filter .filters .filter_branches .btn-secondary.dropdown-toggle:after {
+    margin-left: 2.255rem;
+}
+
+.search_list_view {
+    width: 334px;
+}
+
+input.form-control.list_view_search_bar {
+    height: 46px;
+    padding-left: 40px;
+    font-size: 12px;
+    font-family: 'redhat-R';
+    border: 2px solid #E1E1E1;
+    border-radius: 0;
+}
+
+button.list_view_search_btn {
+    position: absolute;
+    top: auto;
+    left: 13px;
+    border: 0;
+    background: transparent;
+}
+
+.list_view_branches .table thead th {
+    padding: 12px 15px;
+}
+
+.list_view_branches .table thead {
+    background: #f26000;
+    color: #E1E1E1;
+    font-size: 14px;
+    font-family: 'redhat-SB';
+}
+
+.table_head_design {
+    transform: rotate(90deg);
+    color: #ffffff43;
+}
+
+.listing_number select.form-select {
+    width: 67px;
+    height: 34px;
+    background-color: #F1F1F1;
+    padding-left: 14px;
+    margin-left: 20px;
+    color: #6C757D;
+}
+
+.custom-table-striped tbody tr {
+    background-color: #fff;
+}
+
+.custom-table-striped tbody tr:nth-child(even) {
+    background-color: #F1F1F1;
+}
+
+.list_view_branches .table-striped tbody tr,
+td {
+    color: #2D4356 !important;
+}
+
+/* list view container end here  */
+
+/****************************** Branch list Page CSS End HERE     *****************************/
+/****************************** Gallery Page CSS Sraty HERE       *****************************/
+.gallery_sec {
+    padding: 90px 0 0px 0;
+}
+.child_gallery_sec{
+    padding: 90px 0 0px 0;
+}
+.page_main_title {
+    margin-bottom: 41px;
+}
+.three_dots{
+    line-height: 0%;
+}
+.gallery_list .tabs_events .nav-link {
+    padding: 14px 32px;
+}
+
+.gallery_single_image_box {
+    width: 20%;
+    padding: 0 8px;
+    margin: 7.5px 0;
+}
+
+.gallery_main_container {
+    margin-top: 55px;
+}
+
+.dropdown-menu {
+
+    padding: 6px;
+}
+
+.dropdown-item:hover {
+
+    border-radius: 5px;
+    background-color: #FFF1E6;
+    color: #F26000;
+}
+
+.btn-link {
+    width: 31px;
+    height: 31px;
+    color: #E1E1E1;
+    border-radius: 50px;
+    border: 2px solid #E1E1E1;
+    background-color: #F1F1F1;
+}
+
+.card_heading {
+    padding-top: 10px;
+}
+
+.card.gallery_folder {
+    border-color: #E1E1E1;
+    border-radius: 0px;
+    transition: ease 0.5s;
+    width: 270px !important;
+    height: 151px;
+}
+.card.gallery_folder_img{
+    background: url("../assets/Images/istockphoto-599867640-612x612.jpg") no-repeat;
+    
+    width: 269px;
+    height: 150px;
+
+}
+.card.gallery_folder_img1{
+    background: url("../assets/Images/full-shot-woman-boy-yoga-mat.jpg") no-repeat;
+    
+    width: 269px;
+    height: 150px;
+}
+.card.gallery_folder_img2{
+    background: url("../assets/Images/yoga-teacher-teaching-class.jpg") no-repeat;
+    
+    width: 269px;
+    height: 150px;
+}
+.card.gallery_folder_img3{
+    background: url("../assets/Images/medium-shot-kids-yoga-mats-with-pink-balls.jpg") no-repeat;
+    width: 269px;
+    height: 150px;
+}
+
+.img_gallery_card_text{
+    color: #ffffff;
+    margin: 56px -11px;
+
+}
+
+.button_menu{
+    margin: -19px;
+}
+.dropdown-menu.img_dropdown_menu{
+    inset: 1px auto auto -100px !important;
+    min-width: 136px;
+}
+
+.card.gallery_folder:hover {
+    border-color: #F26000;
+}
+
+.gallery_menu {
+    inset: 1px auto auto -68px !important;
+}
+
+.dropdown-menu.gallery_menu {
+    min-width: 136px;
+}
+
+.btn:focus,
+.btn:active {
+    box-shadow: none !important;
+}
+
+.gallery_text_box {
+    padding: 15px;
+    border-bottom: 1px dashed #F26000;
+}
+
+.card-body.gallery_folder_body {
+    padding: 10px;
+
+}
+.card_img{
+    padding:10px;
+}
+
+
+/****************************** Gallery Page CSS End HERE *****************************/
+
+
+/*********************************************************************************************************
+*********************************************************************************************************
+                                        ADMIN SIDE PAGE CSS START HERE 
+ ********************************************************************************************************
+ ********************************************************************************************************/
+
+
+/******************************** BRANCH REPORTS CSS START HERE  ***************************************/
+section.report_main_body {
+    padding-bottom: 120px;
+}
+
+.dashboard_brdcrumb {
+    padding-top: 48px;
+}
+
+.dashboard li a {
+    color: #fff !important;
+    opacity: .5;
+}
+
+.dashboard_branch_reports {
+    margin-top: 30px;
+}
+
+.dashboard_branch_reports li button.nav-link {
+    font-size: 14px;
+    font-family: 'redhat-R';
+    color: #fff;
+    padding: 17px 35px;
+}
+
+.dashboard_branch_reports.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #fff;
+    color: #f26000;
+    border-bottom: 3px solid #f26000;
+    border-radius: 9px 9px 0 0;
+    font-family: 'outfit-M';
+}
+
+.all_branches_box {
+    padding-top: 44px;
+}
+
+.pdf_download_btn {
+    color: #f26000;
+    background: #FEF1E9;
+    border: 1px solid #f26000;
+    padding: 11px 14px;
+}
+
+.excle_download_btn {
+    color: #3C8840;
+    background: #E2EDE2;
+    border: 1px solid #3C8840;
+    padding: 11px 14px;
+}
+
+.dash_search_filters {
+    margin-top: 35px;
+    margin-bottom: 25px;
+    border: 1px solid #DCDCDC;
+
+}
+
+.search_filtes_title {
+    background: #F1F1F1;
+    padding: 20px 13px;
+}
+
+tr th i {
+    font-size: 12px;
+}
+
+select.valaya_select option {
+    color: #6C757D;
+    font-size: 14px;
+    font-family: 'outfit-M';
+}
+
+select.valaya_select {
+    color: #6C757D;
+    font-size: 14px;
+    font-family: 'outfit-M';
+    border: none;
+    border-radius: 0;
+    border-right: 1px solid #DCDCDC;
+}
+
+.dash_search_filters .btn-primary {
+    width: 160px;
+    height: 44px;
+    margin-right: 10px;
+}
+
+.table th {
+    font-size: 14px;
+    color: #E1E1E1;
+    font-family: 'redhat-SB';
+    background-color: #2D4356;
+}
+
+.table td span {
+    font-size: 14px;
+    font-family: 'redhat-R' !important;
+    color: #6C757D;
+}
+
+.table td {
+    line-height: 18px;
+}
+
+.title {
+    font-family: 'redhat-SB';
+    color: #6C757D;
+}
+
+td.branchname_box {
+    min-width: 222px;
+}
+
+/* span.branch_img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    overflow: hidden;
+} */
+
+span.branch_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+td.branch_add_box {
+    min-width: 184px;
+}
+
+.upa_valaya_box {
+    min-width: 213px;
+}
+
+td.mobile_no_box {
+    min-width: 191px;
+}
+
+td.valaya_box {
+    min-width: 250px;
+}
+
+td.city_box {
+    min-width: 151px;
+}
+
+td.status_box {
+    min-width: 144px;
+}
+
+td.timing_box {
+    min-width: 174px;
+}
+
+td.total_mens_box {
+    min-width: 107px;
+}
+
+td.total_woman_box {
+    min-width: 127px;
+}
+
+td.total_yoga_bandu {
+    min-width: 180px;
+
+}
+
+td.event_wing {
+    min-width: 120px;
+
+}
+
+td.camp_box {
+    min-width: 236px;
+}
+
+td.all_box span.all {
+    width: 28px;
+    height: 28px;
+    background: #FCDCC7;
+    color: #f26000 !important;
+    border-radius: 50px;
+    font-family: 'redhat-SB' !important;
+}
+
+.pagination_of_report ul.pagination .page-item .page-link {
+    background-color: transparent;
+}
+
+.pagination_of_report ul.pagination .page-item .page-link.active {
+    background-color: #f26000;
+}
+
+.start_date_body {
+    align-items: center;
+    background-color: #F6F6F6;
+    padding: 30px;
+}
+
+.date {
+    padding-left: 3.5px;
+    align-items: center;
+    padding: 6px 18px 8px 25px;
+
+}
+
+.number_of_batches_box {
+    min-width: 213px;
+    text-align: center;
+}
+
+.total_mens_box {
+    text-align: center;
+}
+
+.avtar_img_no {
+    padding-top: 18px 19px;
+
+}
+
+.avtar_text {
+    padding-left: 3px;
+    text-align: center;
+}
+
+.total_woman_box {
+    text-align: center;
+}
+
+.woman_img_no {
+    padding-top: 18px 19px;
+}
+
+.woman_text {
+    padding-left: 3px;
+    text-align: center;
+}
+
+.total_yoga_bandu {
+    text-align: center;
+}
+
+.total_yoga_bandu_box {
+
+    background-color: #F1F1F1;
+    width: 50px;
+    height: 27px;
+}
+
+.total_yoga_bandu_img {
+    padding: 4px 6px 4px 6px;
+}
+
+.total_yoga_bandu_text {
+    padding-left: 3px;
+    text-align: center;
+}
+
+.status_box {
+    padding: 15px 17px;
+}
+
+.active_border_success {
+    width: 68px;
+    height: 24px;
+    background: #ffffff;
+    border: 1px solid #009E20;
+    border-radius: 4px;
+}
+
+.active_text {
+    padding: 2px 15px 3px 15px;
+    text-align: center;
+}
+
+.active_border_secondary {
+    width: 68px;
+    height: 24px;
+    background: #ffffff;
+    border: 1px solid #2D4356;
+    border-radius: 4px;
+}
+
+.active_border_danger {
+    width: 68px;
+    height: 24px;
+    background: #ffffff;
+    border: 1px solid #B70F0F;
+    border-radius: 4px;
+}
+
+.active_text_secondary {
+    padding: 2px 11px 3px 9px;
+}
+
+.timing_box {
+
+    background-color: #F1F1F1;
+    width: 80px;
+    height: 27px;
+}
+
+.timing_text {
+    padding-left: 5px 11px 5px 11px;
+
+}
+
+.event_Wing_box {
+    text-align: center;
+    padding: 15px 14px;
+}
+
+.event_wing {
+    background-color: #F1F1F1;
+    width: 80%;
+    height: 27px;
+
+
+}
+
+.event_text {
+    padding: 3px 13px 5px 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.count_of_namaskars_box {
+    padding: 16px 15px;
+}
+
+.count_of_namaskars {
+    width: 65px;
+    height: 25px;
+    border: 1px solid #F26000;
+    border-radius: 4px;
+    background-color: #FEF1E9;
+}
+
+.count_of_namaskars_img {
+    background-color: #F26000;
+    padding: 1.5px 6.3px 4.1px 5.3px;
+    border-radius: 3px;
+}
+
+.count_of_namaskars_text {
+    padding: 4px;
+}
+
+.Jilla_box {
+    min-width: 228px;
+}
+
+.camp_name_box {
+    padding: 13px 9px;
+}
+
+.camp_border {
+    width: 168px;
+    height: 27px;
+    border: 1px solid #2D4356;
+    border-radius: 4px;
+}
+
+.camp_text {
+    padding: 6px;
+}
+
+.bandhus_role {
+    background-color: #FEF1E9;
+
+    width: 98%;
+    height: 28px;
+    border-radius: 4px;
+
+}
+
+.bandhu_role_text {
+    padding: 5px 18px 7px 19px;
+}
+
+/****************************** Side Icons CSS start HERE         *****************************/
+.icons {
+    position: fixed;
+    top: 25%;
+    right: 0;
+    z-index: 99;
+    list-style-type: none;
+}
+
+ul.icons li.icons_item a {
+    background-color: #ffff;
+    border-bottom: 1px solid #F26000;
+    height: 64px;
+    width: 64px;
+
+}
+
+/****************************** Side Icons CSS end HERE         *****************************/
+/****************************** DashBoard CSS start HERE         *****************************/
+.breadcrumb_dashboard {
+    height: 273px;
+    padding-top: 100px;
+    padding-bottom: 89px;
+    background-color: #F26000;
+
+}
+
+.dashboard_card {
+    top: -79px;
+    min-width: 366px;
+    height: 194px;
+}
+
+
+.title_text {
+    color: #6C757D;
+    position: absolute;
+}
+
+.title_heading {
+    padding-top: 20px;
+
+}
+
+.card_footer {
+    max-width: 100%;
+    object-fit: cover;
+    background-color: #F6F6F6;
+    padding: 13px;
+}
+
+.arrow_img {
+    position: absolute;
+    right: 25px;
+}
+
+/* .graph_img{
+top:30px ;
+} */
+.card.dashboard_card{
+    border-color: #E1E1E1;
+    border-radius: 0px;
+    transition: ease 0.5s;
+}
+.card.dashboard_card:hover {
+    border: 1px solid #F26000;
+
+}
+
+.last_three_event_heading {
+    margin-top: 48px;
+    padding-bottom: 15px;
+}
+
+
+
+.last_three_event_text {
+    color: #15181A;
+}
+
+.about_text_box {
+    padding-top: 16px;
+    border-bottom: 1px dashed #6F7C8E;
+}
+
+.no_size {
+    padding-top: 7px;
+}
+
+#container {
+    min-width: 310px;
+    height: 400px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+/****************************** DashBoard CSS end HERE         *****************************/

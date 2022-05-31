@@ -1,0 +1,588 @@
+
+    <link rel="stylesheet" href="../../../../assets/styles.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
+
+
+
+<section class="dashboard_brdcrumb primary_bg">
+    <div class="container">
+        <div class="page_main_brdcrumb_title_box">
+            <div class="top_brd_crumb_box d-flex align-items-center">
+              <div class="left">
+            <img src="../../../../assets/Images/svg_icons/calendar(1).svg" class="mb-3 img-fluid" alt="">
+            <h6 class="font_22 redhat_SM text-white">Welcome to SYPSS</h6>
+            <h2 class="font_42 outfit_SB text-white mb-1">Event Reports</h2>
+            <nav aria-label="breadcrumb text-center">
+                <ol class="breadcrumb dashboard top_brdcrm p-0">
+                    <li class="breadcrumb-item ">
+                        <a class="d-flex align-items-center" href="#">
+                            <img  alt="" class="brdcrum_home_icon me-2" src="../../../../assets/Images/svg_icons/dash-home.svg"> Home <i class="bi bi-chevron-double-right"></i>
+                        </a>
+                    </li>
+                    <li  aria-current="page" class="breadcrumb-item active text-white">
+                        Event Reports
+                    </li>
+                </ol>
+            </nav>
+            </div>
+            <div class="right ms-auto text-end">
+              <img src="../../../../assets/Images/svg_icons/report_icon-svg.svg" class="d-block mb-2" alt="">
+              <span class="font_12 redhat_SB text-white d-block">Number of Events</span>
+              <span class="text-white outfit_B font_42">16200</span>
+            </div>
+          </div>
+
+            <ul class="nav nav-pills dashboard_branch_reports" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All Events</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Number of Namaskar</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Namaskar in Graph </button>
+                </li>
+                
+              </ul>
+        </div>
+    </div>
+
+</section>
+
+<section class="report_main_body">
+    <div class="container">
+        <div class="tab-content" id="pills-tabContent">
+          <!-- First panel start -->
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="all_branches_box">
+                    <div class="branch_box_top d-flex">
+                        <div class="branch_box_title">
+                            <h3 class="font_22 outfit_R secondary_text_color">All events detail listing</h3>
+                            <span class="gray_theme_color font_16 outfit_R ">Find your event </span>
+                        </div>
+                        <div class="report_download_box ms-auto d-flex align-items-center">
+                          
+                          <a  href="javascript:void(0)" class="pdf_download_btn d-flex align-items-center font_14 redhat_SM text-decoration-none me-3"  (click)="createPdf()">
+                            <img src="../../../../assets/Images/svg_icons/pdf_icon.svg" class=" me-2 img-fluid" alt=""> PDF Downlaod</a>
+
+                          <a href="javascript:void(0)" class="excle_download_btn d-flex align-items-center font_14 redhat_SM text-decoration-none" (click)="exportexcel()">
+                            <img src="../../../../assets/Images/svg_icons/excel.svg" class=" me-2 img-fluid" alt=""> Excel Downland</a>
+
+                      </div>
+                    </div>
+                    <div class="dash_search_filters d-flex align-items-center">
+                        <span class="search_filtes_title gray_theme_color outfit_M font_14 me-2">Filter</span>
+                        <select class="form-select valaya_select me-2" aria-label="Default select example">
+                            <option selected>Years</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                          <select class="form-select valaya_select me-2" aria-label="Default select example">
+                            <option selected>Events</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                          <select class="form-select valaya_select me-2" aria-label="Default select example">
+                            <option selected>Wing</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                          <select class="form-select valaya_select me-2" aria-label="Default select example">
+                            <option selected>Valaya</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                          <select class="form-select valaya_select me-2" aria-label="Default select example">
+                            <option selected>City</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                          <select class="form-select valaya_select me-2" aria-label="Default select example">
+                            <option selected>State</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                          <select class="form-select valaya_select me-2" aria-label="Default select example">
+                            <option selected>Country</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                          <button class="btn btn-primary">Search</button>
+                    </div>
+  
+                     <!-- table start -->
+                          <div class="mat-elevation-z8" id="content" #content>
+                    <table class="table" mat-table [dataSource]="listData"  id="excel" #excel matSort>
+                
+                  <!-- eventName Column -->
+                  <ng-container matColumnDef="eventName">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header  class="branchname_box">
+                      Event Name
+                    </th>
+                    <td mat-cell *matCellDef="let element" class="branchname_box"> 
+                      <div class="d-flex align-items-center">
+                      <span class="branch_img me-1 d-flex align-items-center justify-content-center">
+                      <img src="../../../../assets/Images/2018-04-17.png" class="img-fluid" alt="">
+                    </span>
+                       {{element.eventName}} </div></td>
+                  </ng-container>
+                    <!-- Date Column -->
+                  <ng-container matColumnDef="date">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header  class="date_box">
+                      Date 
+                    </th>
+                    <td mat-cell *matCellDef="let element" class="date_box">
+                      <div class="district_box">
+                        <span> {{element.date}}</span>
+                      </div>
+                      </td>
+                  </ng-container>
+                  <!-- Wing Column -->
+                  <ng-container matColumnDef="wing">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header class="city_box">
+                      Wing 
+                    </th>
+                    <td mat-cell *matCellDef="let element" class="wing_box">
+                      <div class="event_wing">
+                        <span class="event_text"> {{element.wing}}</span></div>
+                      </td>
+                  </ng-container>
+                 <!-- totalMen Column -->
+                  <ng-container matColumnDef="totalMen">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header class="total_mens_box" >
+                     total Men
+                    </th>
+                    <td mat-cell *matCellDef="let element" class="total_mens_box">
+                      <div class="avtar_img_no">
+                        <span>
+                        <img src="../../../../assets/Images/svg_icons/avatar.svg" class="img-fluid" alt=""></span>
+                        <span class="avtar_text">{{element.totalMen}} </span>
+                      </div>
+                      </td>
+                  </ng-container>
+                
+                  <!-- totalWomen Column -->
+                  <ng-container matColumnDef="totalWomen">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header class="total_woman_box">
+                      total Women
+                    </th>
+                    <td mat-cell *matCellDef="let element" class="total_woman_box">
+                      <div class="woman_img_no">
+                        <span>
+                          <img src="../../../../assets/Images/svg_icons/woman.svg" class="img-fluid" alt=""></span>
+                          <span class="woman_text">{{element.totalWomen}} </span>
+                      </div>
+                      </td>
+                  </ng-container>
+                
+                  <!-- totalYogabandhu Column -->
+                  <ng-container matColumnDef="totalYogabandhu">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header class="mobile_no_box">
+                      total Yogabandhu
+                    </th>
+                    <td mat-cell *matCellDef="let element" class="mobile_no_box">
+                      <div class="total_yoga_bandu_box">
+                        <div class="total_yoga_bandu_img">
+                          <span>
+                            <img src="../../../../assets/Images/svg_icons/Component 18 – 1.svg" class="img-fluid" alt="">
+                          </span>
+                        <span class="total_yoga_bandu_text">  {{element.totalYogabandhu}} </span>
+                      </div>
+                    </div>
+                    </td>
+                  </ng-container>
+        
+                    <!-- status Column -->
+                    <ng-container matColumnDef="status">
+                      <th mat-header-cell *matHeaderCellDef mat-sort-header class="status_box">
+                        Status
+                      </th>
+                      <td mat-cell *matCellDef="let element" class="status_box"> 
+                        <div class="active_border_success">
+                          <span class="active_text" style="color: #009E20;">{{element.status}}</span>
+                         </div>
+                      </td>
+                    </ng-container>
+                    <ng-container matColumnDef="valaya">
+                      <th mat-header-cell *matHeaderCellDef mat-sort-header class="valaya_box">
+                        Valaya
+                      </th>
+                      <td mat-cell *matCellDef="let element" class="valaya_box"> {{element.valaya}} </td>
+                    </ng-container>
+                     <!-- city Column -->
+                     <ng-container matColumnDef="city">
+                      <th mat-header-cell *matHeaderCellDef mat-sort-header   class="city_box">
+                        City
+                      </th>
+                      <td mat-cell *matCellDef="let element"  class="city_box"> {{element.city}} </td>
+                    </ng-container>
+        
+          <!-- district Column -->
+          <ng-container matColumnDef="district">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header class="district_box">
+              District
+            </th>
+            <td mat-cell *matCellDef="let element"class="district_box"> {{element.district}} </td>
+          </ng-container>
+        
+          <!-- state Column -->
+          <ng-container matColumnDef="state">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header class="state_box"> 
+              State
+            </th>
+            <td mat-cell *matCellDef="let element" class="state_box"> {{element.state}} </td>
+          </ng-container>
+        
+            <!-- country Column -->
+            <ng-container matColumnDef="country">
+              <th mat-header-cell *matHeaderCellDef mat-sort-header class="country_box">
+                Country
+              </th>
+              <td mat-cell *matCellDef="let element" class="country_box"> {{element.country}} </td>
+            </ng-container>
+            
+            <!-- Loading data -->
+          <ng-container matColumnDef="loading">
+          <mat-footer-cell *matFooterCellDef colspan="6">
+            Loading data......
+          </mat-footer-cell>
+         </ng-container>
+
+         <!-- no data -->
+         <ng-container matColumnDef="noData">
+          <mat-footer-cell *matFooterCellDef colspan="6">
+            No data.
+          </mat-footer-cell>       
+          </ng-container>
+                  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                  <mat-footer-row *matFooterRowDef="['loading']" [ngClass]="{'hide':listData!=null}"></mat-footer-row>
+                  <mat-footer-row *matFooterRowDef="['noData']" [ngClass]="{'hide':!(listData!=null && listData.data.length==0)}"></mat-footer-row>
+                </table>
+                           </div>
+                    <!-- table end -->
+                    <div class="listview_paginations d-flex align-items-end">
+                      <div class="listing_number d-flex align-items-center">
+                          <span class="d-block font_14 redhat_SB secondary_text_color">All number of event details listing  is <span class="list_item_count redhat_B"> 9</span></span>
+                      </div>
+                       <div class="pagination_of_report d-inline-flex ms-auto">
+                           <nav aria-label="Page navigation branch_list">
+                               <ul class="pagination">
+                                   <li class="page-item pagination_btn"><a class="page-link" href="javascript:void(0);"><i class="fi fi-rr-angle-left"></i></a>
+                                   </li>
+                                   <li class="page-item"><a class="page-link active" href="javascript:void(0);">1</a></li>
+                                   <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+                                   <li class="page-item"><a class="page-link" href="javascript:void(0);">3</a></li>
+                                   <li class="page-item"><a class="page-link" href="javascript:void(0);">...</a></li>
+                                   <li class="page-item pagination_btn"><a class="page-link" href="javascript:void(0);"><i class="fi fi-rr-angle-right"></i></a>
+                                   </li>
+                               </ul>
+                           </nav>
+                       </div>
+                   </div>
+                </div>
+                
+            </div>
+            <!-- First Panel end -->
+
+            <!-- second Panel start-->
+            <div class="tab-pane fade show" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+              
+                <div class="all_branches_box">
+                    <div class="branch_box_top d-flex">
+                        <div class="branch_box_title">
+                            <h3 class="font_22 outfit_R secondary_text_color">All number of namaskar</h3>
+                            <span class="gray_theme_color font_16 outfit_R ">Find your namaskar</span>
+                        </div>
+                        <div class="report_download_box ms-auto d-flex align-items-center">
+                          
+                          <a  href="javascript:void(0)" class="pdf_download_btn d-flex align-items-center font_14 redhat_SM text-decoration-none me-3"  (click)="createPdf()">
+                            <img src="../../../../assets/Images/svg_icons/pdf_icon.svg" class=" me-2 img-fluid" alt=""> PDF Downlaod</a>
+
+                          <a href="javascript:void(0)" class="excle_download_btn d-flex align-items-center font_14 redhat_SM text-decoration-none" (click)="exportexcel()">
+                            <img src="../../../../assets/Images/svg_icons/excel.svg" class=" me-2 img-fluid" alt=""> Excel Downland</a>
+
+                      </div>
+                    </div>
+                    <div class="dash_search_filters d-flex align-items-center">
+                        <span class="search_filtes_title gray_theme_color outfit_M font_14 me-2">Filter</span>
+                        <select class="form-select valaya_select me-2" aria-label="Default select example">
+                            <option selected>Events <span class="start"><img src="../../../../assets/Images/svg_icons/calendar.svg" class="img-fluid" alt=""></span></option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                          <select class="form-select valaya_select me-2" aria-label="Default select example">
+                            <option selected> Years</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                          <select class="form-select valaya_select me-2" aria-label="Default select example">
+                            <option selected>Wing</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                          <select class="form-select valaya_select me-2" aria-label="Default select example">
+                            <option selected>Valaya</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                          <select class="form-select valaya_select me-2" aria-label="Default select example">
+                            <option selected>City</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                          <select class="form-select valaya_select me-2" aria-label="Default select example">
+                            <option selected>State</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                          <select class="form-select valaya_select me-2" aria-label="Default select example">
+                            <option selected>Country</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                          
+                          <button class="btn btn-primary">Search</button>
+                    </div>
+                         <!-- table start -->
+                         <div class="mat-elevation-z8" id="content" #content>
+                          <table class="table" mat-table [dataSource]="listData1"  id="excel" #excel matSort #table1>
+                      
+                        <!-- eventName Column -->
+                        <ng-container matColumnDef="eventName">
+                          <th mat-header-cell *matHeaderCellDef mat-sort-header  class="branchname_box">
+                            Event Name
+                          </th>
+                          <td mat-cell *matCellDef="let element" class="branchname_box"> 
+                            <div class="d-flex align-items-center">
+                            <span class="branch_img me-1 d-flex align-items-center justify-content-center">
+                            <img src="../../../../assets/Images/2018-04-17.png" class="img-fluid" alt="">
+                          </span>
+                             {{element.eventName}} </div></td>
+                        </ng-container>
+                          <!-- Date Column -->
+                          <ng-container matColumnDef="typeOfNamaskars">
+                            <th mat-header-cell *matHeaderCellDef mat-sort-header class="branch_add_box">
+                              Type Of Namaskars
+                            </th>
+                            <td mat-cell *matCellDef="let element" class="branch_add_box">
+                              <div class="address">
+                                <span class="address"> {{element.typeOfNamaskars}}</span></div>
+                              </td>
+                          </ng-container>
+                        <!-- Wing Column -->
+                        <ng-container matColumnDef="countOfNamaskars">
+                          <th mat-header-cell *matHeaderCellDef mat-sort-header class="count_of_namaskars_box">
+                            Count Of Namaskars 
+                          </th>
+                          <td mat-cell *matCellDef="let element" class="count_of_namaskars_box">
+                            <div class="count_of_namaskars">
+                              <span class="count_of_namaskars_img">
+                                <img src="../../../../assets/Images/svg_icons/namaste.svg" class="img-fluid" alt=""></span>
+                                <span class="count_of_namaskars_text" style="color: #F26000;">{{element.countOfNamaskars}}</span></div>
+                            </td>
+                        </ng-container>
+                        <ng-container matColumnDef="upValaya">
+                          <th mat-header-cell *matHeaderCellDef mat-sort-header class="upa_valaya_box">
+                            Upa Valaya
+                          </th>
+                          <td mat-cell *matCellDef="let element" class="upa_valaya_box"> {{element.upValaya}} </td>
+                        </ng-container>
+                          <ng-container matColumnDef="valaya">
+                            <th mat-header-cell *matHeaderCellDef mat-sort-header class="valaya_box">
+                              Valaya
+                            </th>
+                            <td mat-cell *matCellDef="let element" class="valaya_box"> {{element.valaya}} </td>
+                          </ng-container>
+                           <!-- city Column -->
+                           <ng-container matColumnDef="city">
+                            <th mat-header-cell *matHeaderCellDef mat-sort-header   class="city_box">
+                              City
+                            </th>
+                            <td mat-cell *matCellDef="let element"  class="city_box"> {{element.city}} </td>
+                          </ng-container>
+              
+                <!-- district Column -->
+                <ng-container matColumnDef="district">
+                  <th mat-header-cell *matHeaderCellDef mat-sort-header class="district_box">
+                    District
+                  </th>
+                  <td mat-cell *matCellDef="let element"class="district_box"> {{element.district}} </td>
+                </ng-container>
+              
+                <!-- state Column -->
+                <ng-container matColumnDef="state">
+                  <th mat-header-cell *matHeaderCellDef mat-sort-header class="state_box"> 
+                    State
+                  </th>
+                  <td mat-cell *matCellDef="let element" class="state_box"> {{element.state}} </td>
+                </ng-container>
+              
+                  <!-- country Column -->
+                  <ng-container matColumnDef="country">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header class="country_box">
+                      Country
+                    </th>
+                    <td mat-cell *matCellDef="let element" class="country_box"> {{element.country}} </td>
+                  </ng-container>
+                  
+                  <!-- Loading data -->
+                <ng-container matColumnDef="loading">
+                <mat-footer-cell *matFooterCellDef colspan="6">
+                  Loading data......
+                </mat-footer-cell>
+               </ng-container>
+      
+               <!-- no data -->
+               <ng-container matColumnDef="noData">
+                <mat-footer-cell *matFooterCellDef colspan="6">
+                  No data.
+                </mat-footer-cell>       
+                </ng-container>
+                        <tr mat-header-row *matHeaderRowDef="displayedColumns1"></tr>
+                        <tr mat-row *matRowDef="let row; columns: displayedColumns1;"></tr>
+                        <mat-footer-row *matFooterRowDef="['loading']" [ngClass]="{'hide':listData1!=null}"></mat-footer-row>
+                        <mat-footer-row *matFooterRowDef="['noData']" [ngClass]="{'hide':!(listData1!=null && listData1.data.length==0)}"></mat-footer-row>
+                      </table>
+                                 </div>
+                          <!-- table end -->
+                  
+                  
+                    <div class="listview_paginations d-flex align-items-end">
+                      <div class="listing_number d-flex align-items-center">
+                          <span class="d-block font_14 redhat_SB secondary_text_color">All number of branches details listing  is <span class="list_item_count redhat_B"> 9</span></span>
+                      </div>
+                       <div class="pagination_of_report d-inline-flex ms-auto">
+                           <nav aria-label="Page navigation branch_list">
+                               <ul class="pagination">
+                                   <li class="page-item pagination_btn"><a class="page-link" href="javascript:void(0);"><i class="fi fi-rr-angle-left"></i></a>
+                                   </li>
+                                   <li class="page-item"><a class="page-link active" href="javascript:void(0);">1</a></li>
+                                   <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+                                   <li class="page-item"><a class="page-link" href="javascript:void(0);">3</a></li>
+                                   <li class="page-item"><a class="page-link" href="javascript:void(0);">...</a></li>
+                                   <li class="page-item pagination_btn"><a class="page-link" href="javascript:void(0);"><i class="fi fi-rr-angle-right"></i></a>
+                                   </li>
+                               </ul>
+                           </nav>
+                       </div>
+                   </div>
+                </div>
+                
+           
+            </div>
+            <!--Second Panel end  -->
+
+            <!-- Third Panel start -->
+            <div class="tab-pane fade show" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+           
+                <div class="all_branches_box">
+                    <div class="branch_box_top d-flex">
+                        <div class="branch_box_title">
+                            <h3 class="font_22 outfit_R secondary_text_color">All number of namaskar in graph</h3>
+                            <span class="gray_theme_color font_16 outfit_R ">Count of total weekly namaskar with bar graph.</span>
+                        </div>
+                        <div class="report_download_box ms-auto d-flex align-items-center">
+                          
+                          <a  href="javascript:void(0)" class="pdf_download_btn d-flex align-items-center font_14 redhat_SM text-decoration-none me-3"  (click)="createPdf()">
+                            <img src="../../../../assets/Images/svg_icons/pdf_icon.svg" class=" me-2 img-fluid" alt=""> PDF Downlaod</a>
+
+                          <a href="javascript:void(0)" class="excle_download_btn d-flex align-items-center font_14 redhat_SM text-decoration-none" (click)="exportexcel()">
+                            <img src="../../../../assets/Images/svg_icons/excel.svg" class=" me-2 img-fluid" alt=""> Excel Downland</a>
+
+                      </div>
+                    </div>
+                    <div class="dash_search_filters d-flex align-items-center">
+                        <span class="search_filtes_title gray_theme_color outfit_M font_14 me-2">Filter</span>
+                        <select class="form-select valaya_select me-2" aria-label="Default select example">
+                            <option selected>Events Type</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                          <select class="form-select valaya_select me-2" aria-label="Default select example">
+                            <option selected>Years</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                          <select class="form-select valaya_select me-2" aria-label="Default select example">
+                            <option selected>Wing</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                          <select class="form-select valaya_select me-2" aria-label="Default select example">
+                            <option selected>Valaya</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                          <select class="form-select valaya_select me-2" aria-label="Default select example">
+                            <option selected>City</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                          <select class="form-select valaya_select me-2" aria-label="Default select example">
+                            <option selected>State</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                          <select class="form-select valaya_select me-2" aria-label="Default select example">
+                            <option selected>Country</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                          <button class="btn btn-primary">Search</button>
+                    </div>
+                    <div class="mb_25">
+                        <h1 class="event_title">Event Type</h1>
+                    </div>
+                    <div class="listview_paginations d-flex align-items-end">
+                      <div class="listing_number d-flex align-items-center">
+                          <span class="d-block font_14 redhat_SB secondary_text_color">All number of branches details listing  is <span class="list_item_count redhat_B"> 8</span></span>
+                      </div>
+                       <div class="pagination_of_report d-inline-flex ms-auto">
+                           <nav aria-label="Page navigation branch_list">
+                               <ul class="pagination">
+                                   <li class="page-item pagination_btn"><a class="page-link" href="javascript:void(0);"><i class="fi fi-rr-angle-left"></i></a>
+                                   </li>
+                                   <li class="page-item"><a class="page-link active" href="javascript:void(0);">1</a></li>
+                                   <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+                                   <li class="page-item"><a class="page-link" href="javascript:void(0);">3</a></li>
+                                   <li class="page-item"><a class="page-link" href="javascript:void(0);">...</a></li>
+                                   <li class="page-item pagination_btn"><a class="page-link" href="javascript:void(0);"><i class="fi fi-rr-angle-right"></i></a>
+                                   </li>
+                               </ul>
+                           </nav>
+                       </div>
+                   </div>
+                </div>
+                
+          
+            </div>
+            <!-- Third Panel end -->
+
+        </div>
+    </div>
+
+</section>
+

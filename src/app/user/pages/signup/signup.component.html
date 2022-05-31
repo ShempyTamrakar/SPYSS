@@ -1,0 +1,1379 @@
+<link rel="stylesheet" href="../../../../assets/styles.css" />
+<link
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet"
+/>
+<link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<div class="">
+  <div class="">
+    <div class="signup_page bg_light d-inline-block w-100 py_80
+     position-relative overflow-hidden">
+      <div class="container">
+        <div class="main_section">
+          <div class="signup_sub_heading">
+            <h2 class="outfit_B font_28">SPYSS Registration <span class="outfit_B font_28">Form</span></h2>
+            <p class="font_18 redhat_M">Follow the simple 3 to 5 steps to complete your registration</p>
+          </div>
+          <div class="row">
+            <div class="col-md-3 d-flex">
+              <!-- sub_head_right first step with icon section start -->
+
+              <ul id="progressbar" class="sub_head_right w-100">
+                <li
+                  class="personal_details_class"
+                  [ngClass]="step >= 1 ? 'active ' : 'inactive'"
+                >
+                  <span class="steps"
+                    ><img
+                      src="../../../../assets/signup_form/user.svg"
+                      class="img_logo"
+                      alt=""
+                  /></span>
+                  <div class="detail_sub_heading">
+                    <h2 class="font_18 redhat_M">Personal Details</h2>
+                    <h3 class="redhat_R font_14">browse your details</h3>
+                  </div>
+                </li>
+                <li
+                  class="personal_details_class"
+                  [ngClass]="step >= 2 ? 'active' : 'inactive'"
+                >
+                  <span class="steps">
+                    <img
+                      src="../../../../assets/signup_form/envelope.svg"
+                      alt=""
+                      class="regular"
+                    />
+                    <img
+                      src="../../../../assets/signup_form/envelope_active.svg"
+                      alt=""
+                      class="active_img"
+                    />
+                  </span>
+                  <div class="detail_sub_heading">
+                    <h2 class="font_18 redhat_M">Basic Details</h2>
+                    <h3 class="redhat_R font_14">browse your details</h3>
+                  </div>
+                </li>
+                <li
+                  class="personal_details_class"
+                  [ngClass]="step >= 3 ? 'active' : 'inactive'"
+                >
+                  <span class="steps">
+                    <img
+                      src="../../../../assets/signup_form/phone-call_regular.svg"
+                      class="regular"
+                      alt=""
+                    />
+                    <img
+                      src="../../../../assets/signup_form/phone-call.svg"
+                      alt=""
+                      class="active_img"
+                    />
+                  </span>
+                  <div class="detail_sub_heading">
+                    <h2 class="font_18 redhat_M">Contact Details</h2>
+                    <h3 class="redhat_R font_14">browse your details</h3>
+                  </div>
+                </li>
+                <li
+                  class="personal_details_class"
+                  [ngClass]="step >= 4 ? 'active' : 'inactive'"
+                >
+                  <span class="steps">
+                    <img
+                      src="../../../../assets/signup_form/flag.svg"
+                      class="regular"
+                      alt=""
+                    />
+                    <img
+                      src="../../../../assets/signup_form/flag_active.svg"
+                      alt=""
+                      class="active_img"
+                    />
+                  </span>
+                  <div class="detail_sub_heading">
+                    <h2 class="font_18 redhat_M">Other Details</h2>
+                    <h3 class="redhat_R font_14">browse your details</h3>
+                  </div>
+                </li>
+                <li
+                  class="personal_details_class"
+                  [ngClass]="step >= 5 ? 'active' : 'inactive'"
+                >
+                  <span class="steps">
+                    <img
+                      src="../../../../assets/signup_form/camp_regular.svg"
+                      class="regular"
+                      alt=""
+                    />
+                    <img
+                      src="../../../../assets/signup_form/camp_active.svg"
+                      alt=""
+                      class="active_img"
+                    />
+                  </span>
+                  <div class="detail_sub_heading">
+                    <h2 class="font_18 redhat_M">Camp Details</h2>
+                    <h3 class="redhat_R font_14">browse your details</h3>
+                  </div>
+                </li>
+              </ul>
+              <!-- sub_head_right first step with icon section end-->
+            </div>
+            <div class="col-md-1">
+              <!-- sub_head_right second step with icon section start -->
+              <ul
+                id="progressbarSecond"
+                class="ragister_divider d-block w-100 h-100 flex-wrap"
+              >
+                <li
+                  class="personal_details_class"
+                  [ngClass]="step >= 1 ? 'active ' : 'inactive'"
+                >
+                  <span class="stepsSecond"></span>
+                </li>
+                <li
+                  class="personal_details_class"
+                  [ngClass]="step >= 2 ? 'active' : 'inactive'"
+                >
+                  <span class="stepsSecond"> </span>
+                </li>
+                <li
+                  class="personal_details_class"
+                  [ngClass]="step >= 3 ? 'active' : 'inactive'"
+                >
+                  <span class="stepsSecond"></span>
+                </li>
+                <li
+                  class="personal_details_class"
+                  [ngClass]="step >= 4 ? 'active' : 'inactive'"
+                >
+                  <span class="stepsSecond"></span>
+                </li>
+                <li
+                  class="personal_details_class"
+                  [ngClass]="step >= 5 ? 'active' : 'inactive'"
+                >
+                  <span class="stepsSecond"></span>
+                </li>
+              </ul>
+              <!-- sub_head_right second step with icon section end -->
+            </div>
+
+            <div class="col-md-8" style="padding-top: 60px">
+          <form action="" class="">
+            <div class="">
+              
+            </div>
+          </form>
+          
+          
+          
+          
+          
+              <!-- personal details form section start -->
+              <form
+                [formGroup]="personalDetails"
+                id="msform"
+                class="sub_head_left"
+              >
+                <fieldset *ngIf="step == 1">
+                  <div class="step_heading">
+                    <span>step 1</span>
+                    <h2>
+                      Let's start with your personal
+                      <span class="detail_heading">Details</span>
+                    </h2>
+                    <h2 class="fill_heading">
+                      Fill in the details below the form
+                    </h2>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group font_style">
+                        <label for="f_name">First Name</label>
+                        <input
+                          id="f_name"
+                          type="text"
+                          formControlName="f_name"
+                          [ngClass]="{
+                            'is-invalid':
+                              personal_step && personal.f_name.errors
+                          }"
+                          placeholder="Enter first name"
+                        />
+                        <div
+                          class="invalid-feedback"
+                          *ngIf="
+                            personal_step &&
+                            personalDetails.controls.f_name.errors
+                          "
+                        >
+                          <div *ngIf="personal.f_name.errors?.required">
+                            Please insert first name
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group font_style">
+                        <label>Middle Name</label>
+                        <input
+                          [ngClass]="{
+                            'is-invalid':
+                              personal_step && personal.middle_name.errors
+                          }"
+                          type="text"
+                          formControlName="middle_name"
+                          name="middle_name"
+                          placeholder="Enter middle name"
+                        />
+                        <div
+                          class="invalid-feedback"
+                          *ngIf="
+                            personal_step &&
+                            personalDetails.controls.middle_name.errors
+                          "
+                        >
+                          <div *ngIf="personal.middle_name.errors?.required">
+                            Please insert middle name
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group font_style">
+                        <label>Last Name</label>
+                        <input
+                          type="text"
+                          formControlName="l_name"
+                          name="l_name"
+                          placeholder="Enter last name"
+                          [ngClass]="{
+                            'is-invalid':
+                              personal_step && personal.l_name.errors
+                          }"
+                        />
+                        <div
+                          class="invalid-feedback"
+                          *ngIf="
+                            personal_step &&
+                            personalDetails.controls.l_name.errors
+                          "
+                        >
+                          <div *ngIf="personal.l_name.errors?.required">
+                            Please insert last name
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- radio button custom section start -->
+
+                    <div class="col-md-6">
+                      <label class="input_label w-100 font_style"
+                        >Select Your Gender</label
+                      >
+                      <div class="row">
+                        <div class="col-md-5 form-group">
+                          <label class="plan basic-plan" for="male">
+                            <input
+                            
+                              type="radio"
+                              name="subject"
+                              id="male"
+                              value="male"
+                              formControlName="subject"
+                              [ngClass]="{
+                                'is-invalid':
+                                  personal_step && personal.subject.errors
+                              }"
+                            />
+                          
+                            <div class="plan-content">
+                              <span>Male</span>
+                              <span
+                                class="radio_label_box ms-2 position-relative"
+                              >
+                                <img
+                                  loading="lazy"
+                                  src="../../../../assets/signup_form/man.svg"
+                                  alt=""
+                                  class="regular_icon"
+                                />
+                                <img
+                                  loading="lazy"
+                                  src="../../../../assets/signup_form/man_active.svg"
+                                  alt=""
+                                  class="active_icon"
+                                />
+                              </span>
+                            </div>
+                          </label>
+                        </div>
+                        <div class="col-md-5 form-group">
+                          <label class="plan basic-plan w-100" for="female">
+                            <input
+                              type="radio"
+                              name="subject"
+                              id="female"
+                              value="female"
+                              formControlName="subject"
+                              [ngClass]="{
+                                'is-invalid':
+                                  personal_step && personal.subject.errors
+                              }"
+                            />
+                          
+                            <div class="plan-content">
+                              <span>Female</span>
+                              <span class="radio_label_box ms-2">
+                                <img
+                                  loading="lazy"
+                                  src="../../../../assets/signup_form/women.svg"
+                                  alt=""
+                                  class="regular_icon"
+                                />
+                                <img
+                                  loading="lazy"
+                                  src="../../../../assets/signup_form/women_active.svg"
+                                  alt=""
+                                  class="active_icon"
+                                />
+                              </span>
+                            </div>
+                          </label>
+                        </div>
+                        <div
+                          class="invalid-feedback"
+                          *ngIf="
+                            personal_step &&
+                            personalDetails.controls.subject.errors
+                          "
+                        >
+                        
+                        </div>
+                      </div>
+                    </div>
+                    <!-- radio button custom section end -->
+                    <div class="col-md-6 mr-auto">
+                      <div class="form-group font_style">
+                        <label>Date Of Birth</label>
+                        <input
+                          [ngClass]="{
+                            'is-invalid': personal_step && personal.date.errors
+                          }"
+                          type="date"
+                          formControlName="date"
+                          name="date"
+                          placeholder="Enter Date Of Birth"
+                        />
+                        <div
+                          class="invalid-feedback"
+                          *ngIf="
+                            personal_step &&
+                            personalDetails.controls.date.errors
+                          "
+                        >
+                          <div *ngIf="personal.date.errors?.required">
+                            Please insert date of birth
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="align_right_btn">
+                    <button
+                      (click)="next()"
+                      type="button"
+                      name="next"
+                      class="btn btn action-button rounded-0"
+                    >
+                      Next
+                    </button>
+                  </div>
+                </fieldset>
+              </form>
+              <!-- personal details form section end -->
+
+              <!-- basic details form section start -->
+
+              <form
+                id="msform"
+                class="sub_head_left"
+                [formGroup]="basicDetails"
+              >
+                <fieldset *ngIf="step == 2">
+                  <div class="step_heading">
+                    <span>step 2</span>
+                    <h2>
+                      Let's start with your basic
+                      <span class="detail_heading">Details</span>
+                    </h2>
+                    <h2 class="fill_heading">
+                      Fill in the details below the form
+                    </h2>
+                  </div>
+                  <div style="overflow: scroll; height: 433px">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group font_style">
+                          <label for="email">Email</label>
+                          <input
+                            id="email"
+                            type="email"
+                            formControlName="email"
+                            [ngClass]="{
+                              'is-invalid': basic_details && basic.email.errors
+                            }"
+                            placeholder="Enter Email"
+                          />
+                          <div
+                            class="invalid-feedback"
+                            *ngIf="
+                              basic_details &&
+                              basicDetails.controls.email.errors
+                            "
+                          >
+                            <div *ngIf="basic.email.errors?.required">
+                              Please insert Email Id
+                            </div>
+                            <div *ngIf="basic.email.errors?.email">
+                              Please insert Correct Email Id
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6"></div>
+                      <div class="col-md-6">
+                        <div class="form-group font_style">
+                          <label for="password">Password</label>
+                          <input
+                            id="password"
+                            type="password"
+                            formControlName="password"
+                            [ngClass]="{
+                              'is-invalid':
+                                basic_details && basic.password.errors
+                            }"
+                            placeholder="Enter password"
+                          />
+                          <div
+                            class="invalid-feedback"
+                            *ngIf="
+                              basic_details &&
+                              basicDetails.controls.password.errors
+                            "
+                          >
+                            <div *ngIf="basic.password.errors?.required">
+                              Please insert Password
+                            </div>
+                            <div *ngIf="basic.password.errors?.passLenght">
+                              Only 6 Digit Insert any Password
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group font_style">
+                          <label for="comfirm_password">Confirm Password</label>
+                          <input
+                            id="comfirm_password"
+                            type="password"
+                            formControlName="comfirm_password"
+                            [ngClass]="{
+                              'is-invalid':
+                                basic_details && basic.comfirm_password.errors
+                            }"
+                            placeholder="Enter comfirm_password"
+                          />
+                          <div
+                            class="invalid-feedback"
+                            *ngIf="
+                              basic_details &&
+                              basicDetails.controls.comfirm_password.errors
+                            "
+                          >
+                            <div
+                              *ngIf="basic.comfirm_password.errors?.required"
+                            >
+                              Please insert Comfirm Password
+                            </div>
+                            <div *ngIf="basic.comfirm_password.errors?.passErr">
+                              Password and Re-Password Should be Same
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group font_style">
+                          <label for="language"
+                            >Fluently Spoken Languages Known</label
+                          >
+                          <input
+                            id="language"
+                            type="text"
+                            formControlName="language"
+                            [ngClass]="{
+                              'is-invalid':
+                                basic_details && basic.language.errors
+                            }"
+                            placeholder="Enter language"
+                          />
+                          <div
+                            class="invalid-feedback"
+                            *ngIf="
+                              basic_details &&
+                              basicDetails.controls.language.errors
+                            "
+                          >
+                            <div *ngIf="basic.language.errors?.required">
+                              Please insert Language
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 btn_second_form">
+                        <label for="residing">Residing in India</label>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <input
+                                (click)="yes()"
+                                type="button"
+                                class="btn btn-danger"
+                                value="Yes"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <input
+                                (click)="no()"
+                                type="button"
+                                class="btn btn-danger"
+                                value="No"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6"  *ngIf="isShown">
+                        <div class="form-group font_style">
+                          <label for="primary">Aadhaar Number</label>
+                          <input
+                            id="primary"
+                            type="number"
+                            formControlName="primary"
+                            [ngClass]="{
+                              'is-invalid':
+                                basic_details && basic.primary.errors
+                            }"value="adhar"
+                            placeholder="Enter Adhar Number"
+                          />
+                      
+                          <div
+                            class="invalid-feedback"
+                            *ngIf="
+                              basic_details &&
+                              basicDetails.controls.primary.errors
+                            "
+                          >
+                            <div *ngIf="basic.primary.errors?.required">
+                              Please insert adhar no.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- <div class="col-md-6" *ngIf="!isShown"></div> -->
+                      <div class="col-md-6" *ngIf="isShown"></div>
+                      <div class="col-md-6">
+                        <div class="form-group font_style">
+                          <label for="qualification"
+                            >Highest Qualification</label
+                          >
+                          <input
+                            id="qualification"
+                            type="text"
+                            formControlName="qualification"
+                            [ngClass]="{
+                              'is-invalid':
+                                basic_details && basic.qualification.errors
+                            }"
+                            placeholder="Enter qualification"
+                          />
+                          <div
+                            class="invalid-feedback"
+                            *ngIf="
+                              basic_details &&
+                              basicDetails.controls.qualification.errors
+                            "
+                          >
+                            <div *ngIf="basic.qualification.errors?.required">
+                              Please insert highest Qualification
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group font_style">
+                          <label for="emp_type">Employment Type</label>
+                          <input
+                            id="emp_type"
+                            type="text"
+                            formControlName="emp_type"
+                            [ngClass]="{
+                              'is-invalid':
+                                basic_details && basic.emp_type.errors
+                            }"
+                            placeholder="Enter Type.."
+                          />
+                          <div
+                            class="invalid-feedback"
+                            *ngIf="
+                              basic_details &&
+                              basicDetails.controls.emp_type.errors
+                            "
+                          >
+                            <div *ngIf="basic.emp_type.errors?.required">
+                              Please insert Employment Type
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="align_right_btn">
+                      <span
+                        (click)="previous()"
+                        name="previous"
+                        class="back_btn"
+                      >
+                        Back
+                      </span>
+                      <button
+                        (click)="nextTwo()"
+                        type="button"
+                        name="next"
+                        class="btn btn action-button rounded-0"
+                      >
+                        Next
+                      </button>
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+              <!-- basic details form section end -->
+
+              <!-- Contact details form section start-->
+              <form
+                class="sub_head_left"
+                [formGroup]="contactDetails"
+                id="msform"
+              >
+                <fieldset *ngIf="step == 3">
+                  <div class="step_heading">
+                    <span>step 3</span>
+                    <h2>
+                      Let's start with your contact
+                      <span class="detail_heading">Details</span>
+                    </h2>
+                    <h2 class="fill_heading">
+                      Fill in the details below the form
+                    </h2>
+                  </div>
+                  <div style="overflow: scroll; height: 433px">
+                    <div class="row">
+                      <div class="col-md-6 mr-auto type_none">
+                        <div class="form-group font_style">
+                          <label for="number">Primary No.</label>
+                          <input
+                            name="number"
+                            [ngClass]="{
+                              'is-invalid': camp_step && contact.number.errors
+                            }"
+                            formControlName="number"
+                            placeholder="Enter Primary Number"
+                            type="number"
+                          />
+
+                          <div
+                            class="invalid-feedback"
+                            *ngIf="
+                              contact_step &&
+                              contactDetails.controls.number.errors
+                            "
+                          >
+                            <div *ngIf="contact.number.errors?.required">
+                              Please insert Primary Number
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 mr-auto type_none">
+                        <div class="form-group font_style">
+                          <label for="whatsapp">WhatsApp No.</label>
+                          <!-- <img src="../../../../assets/signup_form/whatsapp.png" alt=""> -->
+                          <input
+                            class="whatsapp_img"
+                            name="whatsapp"
+                            [ngClass]="{
+                              'is-invalid':
+                                contact_step && contact.whatsapp.errors
+                            }"
+                            formControlName="whatsapp"
+                            placeholder="Enter whatsapp No."
+                            type="number"
+                          />
+
+                          <div
+                            class="invalid-feedback"
+                            *ngIf="
+                              contact_step &&
+                              contactDetails.controls.whatsapp.errors
+                            "
+                          >
+                            <div *ngIf="contact.whatsapp.errors?.required">
+                              Please insert WhatsApp Number
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group font_style">
+                          <label for="country">Nationality</label>
+                          <select
+                            (change)="selectItem()"
+                            formControlName="country"
+                            [ngClass]="{
+                              'is-invalid':
+                                contact_step && contact.country.errors
+                            }"
+                            name="country"
+                          >
+                            <option value="">Select Country</option>
+                            <option value="india">India</option>
+                            <option value="us">US</option>
+                            <option value="united state">United State</option>
+                          </select>
+                          <div
+                            class="invalid-feedback"
+                            *ngIf="
+                              contact_step &&
+                              contactDetails.controls.country.errors
+                            "
+                          >
+                            <div *ngIf="contact.country.errors?.required">
+                              Please Select Country
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6" *ngIf="cityDrop"></div>
+                      <div class="col-md-6" *ngIf="cityDrop">
+                        <div class="form-group font_style">
+                          <label for="state">Select State</label>
+                          <select
+                            formControlName="state"
+                            [ngClass]="{
+                              'is-invalid': contact_step && contact.state.errors
+                            }"
+                            name="state"
+                          >
+                            <option value="">Select state</option>
+                            <option value="mp">mp</option>
+                            <option value="us">us</option>
+                          </select>
+                          <div
+                            class="invalid-feedback"
+                            *ngIf="
+                              contact_step &&
+                              contactDetails.controls.state.errors
+                            "
+                          >
+                            <div *ngIf="contact.state.errors?.required">
+                              Please Select state
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6" *ngIf="cityDrop">
+                        <div class="form-group font_style">
+                          <label for="valaya">Select Valaya</label>
+                          <select
+                            formControlName="valaya"
+                            [ngClass]="{
+                              'is-invalid':
+                                contact_step && contact.valaya.errors
+                            }"
+                            name="valaya"
+                          >
+                            <option value="">Select valaya</option>
+                            <option value="indore">Indore</option>
+                            <option value="dewas">Dewas</option>
+                          </select>
+                          <div
+                            class="invalid-feedback"
+                            *ngIf="
+                              contact_step &&
+                              contactDetails.controls.valaya.errors
+                            "
+                          >
+                            <div *ngIf="contact.valaya.errors?.required">
+                              Please Select valaya
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6" *ngIf="cityDrop">
+                        <div class="form-group font_style">
+                          <label for="district">Select district</label>
+                          <select
+                            formControlName="district"
+                            [ngClass]="{
+                              'is-invalid':
+                                contact_step && contact.district.errors
+                            }"
+                            name="district"
+                          >
+                            <option value="">Select district</option>
+                            <option value="indore">Indore</option>
+                            <option value="dewas">Dewas</option>
+                          </select>
+                          <div
+                            class="invalid-feedback"
+                            *ngIf="
+                              contact_step &&
+                              contactDetails.controls.district.errors
+                            "
+                          >
+                            <div *ngIf="contact.district.errors?.required">
+                              Please Select district
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-3 mr-auto">
+                        <div class="form-group font_style">
+                          <label for="pincode">Pincode</label>
+                          <input
+                            name="pincode"
+                            [ngClass]="{
+                              'is-invalid':
+                                contact_step && contact.pincode.errors
+                            }"
+                            formControlName="pincode"
+                            placeholder="Enter pincode"
+                            type="text"
+                            pattern="[0-9]{6}"
+                            maxlength="6"
+                          />
+
+                          <div
+                            class="invalid-feedback"
+                            *ngIf="
+                              contact_step &&
+                              contactDetails.controls.pincode.errors
+                            "
+                          >
+                            <div
+                              style="min-width: 140px"
+                              *ngIf="contact.pincode.errors?.required"
+                            >
+                              Please insert Pincode
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 mr-auto" *ngIf="cityDrop">
+                        <div class="form-group font_style">
+                          <label for="address">Primary No.</label>
+                          <input
+                            name="address"
+                            [ngClass]="{
+                              'is-invalid':
+                                contact_step && contact.address.errors
+                            }"
+                            formControlName="address"
+                            placeholder="Enter Primary No."
+                            type="text"
+                          />
+
+                          <div
+                            class="invalid-feedback"
+                            *ngIf="
+                              contact_step &&
+                              contactDetails.controls.address.errors
+                            "
+                          >
+                            <div *ngIf="contact.address.errors?.required">
+                              Please insert Primary No.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="align_right_btn">
+                      <span
+                        (click)="previous()"
+                        name="previous"
+                        class="back_btn"
+                      >
+                        Back
+                      </span>
+                      <button
+                        (click)="nextThree()"
+                        type="button"
+                        name="next"
+                        class="btn btn action-button rounded-0"
+                      >
+                        Next
+                      </button>
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+              <!-- Contact details form section end-->
+
+              <!-- other details form section start-->
+              <form
+                class="sub_head_left"
+                [formGroup]="otherDetails"
+                id="msform"
+              >
+                <fieldset *ngIf="step == 4">
+                  <div class="step_heading">
+                    <span>step 4</span>
+                    <h2>
+                      Let's start with your othere
+                      <span class="detail_heading">Details</span>
+                    </h2>
+                    <h2 class="fill_heading">
+                      Fill in the details below the form
+                    </h2>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 mr-auto type_none">
+                      <div class="form-group font_style">
+                        <label for="highest_qualification"
+                          >Highest Qualification
+                        </label>
+                        <input
+                          name="highest_qualification"
+                          [ngClass]="{
+                            'is-invalid':
+                              other_step && other.highest_qualification.errors
+                          }"
+                          formControlName="highest_qualification"
+                          placeholder="Enter highest qualification"
+                          type="text"
+                        />
+
+                        <div
+                          class="invalid-feedback"
+                          *ngIf="
+                            other_step &&
+                            otherDetails.controls.highest_qualification.errors
+                          "
+                        >
+                          <div
+                            *ngIf="other.highest_qualification.errors?.required"
+                          >
+                            Please insert Highest Qualification
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mr-auto type_none">
+                      <div class="form-group font_style">
+                        <label for="emp_type">Employment Type</label>
+                        <input
+                          name="emp_type"
+                          [ngClass]="{
+                            'is-invalid': other_step && other.emp_type.errors
+                          }"
+                          formControlName="emp_type"
+                          placeholder="Type..."
+                          type="text"
+                        />
+
+                        <div
+                          class="invalid-feedback"
+                          *ngIf="
+                            other_step && otherDetails.controls.emp_type.errors
+                          "
+                        >
+                          <div *ngIf="other.emp_type.errors?.required">
+                            Please insert Type
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mr-auto type_none">
+                      <div class="form-group font_style">
+                        <label for="wing">Wing</label>
+                        <input
+                          name="wing"
+                          [ngClass]="{
+                            'is-invalid': other_step && other.wing.errors
+                          }"
+                          formControlName="wing"
+                          placeholder="Enter Wing ..."
+                          type="text"
+                        />
+
+                        <div
+                          class="invalid-feedback"
+                          *ngIf="
+                            other_step && otherDetails.controls.wing.errors
+                          "
+                        >
+                          <div *ngIf="other.wing.errors?.required">
+                            Please insert Wing
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group font_style">
+                        <label for="country">Nationality</label>
+                        <select
+                          (change)="selectItem()"
+                          formControlName="country"
+                          [ngClass]="{
+                            'is-invalid': other_step && other.country.errors
+                          }"
+                          name="country"
+                        >
+                          <option value="">Select Country</option>
+                          <option value="india">India</option>
+                          <option value="us">US</option>
+                          <option value="united state">United State</option>
+                        </select>
+                        <div
+                          class="invalid-feedback"
+                          *ngIf="
+                            other_step && otherDetails.controls.country.errors
+                          "
+                        >
+                          <div *ngIf="other.country.errors?.required">
+                            Please Select Country
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="align_right_btn">
+                    <span (click)="previous()" name="previous" class="back_btn">
+                      Back
+                    </span>
+                    <button
+                      (click)="nextFour()"
+                      type="button"
+                      name="next"
+                      class="btn btn action-button rounded-0"
+                    >
+                      Next
+                    </button>
+                  </div>
+                </fieldset>
+              </form>
+              <!-- other details form section end-->
+
+              <!-- camp details form section start-->
+              <form class="sub_head_left" [formGroup]="campDetails" id="msform">
+                <fieldset *ngIf="step == 5">
+                  <div class="step_heading">
+                    <span>step 5</span>
+                    <h2>
+                      Let's start with your camp
+                      <span class="detail_heading">Details</span>
+                    </h2>
+                    <h2 class="fill_heading">
+                      Fill in the details below the form
+                    </h2>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 mr-auto type_none">
+                      <div class="form-group font_style">
+                        <label for="batch">Which part of the Day </label>
+                        <select
+                          formControlName="batch"
+                          [ngClass]="{
+                            'is-invalid': camp_step && camp.batch.errors
+                          }"
+                          name="batch"
+                        >
+                          <option value="">Select</option>
+                          <option value="india">Morning Batch</option>
+                        </select>
+                        <div
+                          class="invalid-feedback"
+                          *ngIf="camp_step && campDetails.controls.batch.errors"
+                        >
+                          <div *ngIf="camp.batch.errors?.required">
+                            Please Select the Day
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mr-auto type_none">
+                      <div class="form-group font_style">
+                        <label for="trainer_text">WhatsApp No.</label>
+                        <input
+                          name="trainer_text"
+                          [ngClass]="{
+                            'is-invalid': camp_step && camp.trainer_text.errors
+                          }"
+                          formControlName="trainer_text"
+                          placeholder="Enter Whatsapp No."
+                          type="text"
+                        />
+
+                        <div
+                          class="invalid-feedback"
+                          *ngIf="
+                            camp_step &&
+                            campDetails.controls.trainer_text.errors
+                          "
+                        >
+                          <div *ngIf="camp.trainer_text.errors?.required">
+                            Please insert WhatsApp no.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 btn_second_form">
+                      <label for="class">Class attended type</label>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input
+                              type="button"
+                              class="btn btn-danger"
+                              value="Online"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input
+                              type="button"
+                              class="btn btn-danger"
+                              value="Offline"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 btn_second_form">
+                      <label for="residing"
+                        >Participated SPYSS residential Camp</label
+                      >
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input
+                              (click)="yesCamp()"
+                              type="button"
+                              class="btn btn-danger"
+                              value="Yes"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input
+                              (click)="noCamp()"
+                              type="button"
+                              class="btn btn-danger"
+                              value="No"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mr-auto">
+                      <div class="form-group font_style">
+                        <label for="batch_type">Batch Type</label>
+                        <select
+                          formControlName="batch_type"
+                          [ngClass]="{
+                            'is-invalid': camp_step && camp.batch_type.errors
+                          }"
+                          name="batch_type"
+                        >
+                          <option value="">Select Country</option>
+                          <option value="batch one">Batch One</option>
+                          <option value="batch two">Batch Two</option>
+                        </select>
+                        <div
+                          class="invalid-feedback"
+                          *ngIf="
+                            camp_step && campDetails.controls.batch_type.errors
+                          "
+                        >
+                          <div
+                            style="min-width: 140px"
+                            *ngIf="camp.batch_type.errors?.required"
+                          >
+                            Please Select Batch Type
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6" *ngIf="!isShownTrue"></div>
+                    <div class="col-md-6 mr-auto" *ngIf="isShownTrue">
+                      <div class="form-group font_style">
+                        <label for="camp_complite"
+                          >Highest level residential camp</label
+                        >
+
+                        <select
+                          formControlName="camp_complite"
+                          [ngClass]="{
+                            'is-invalid': camp_step && camp.camp_complite.errors
+                          }"
+                          name="camp_complite"
+                        >
+                          <option value="">Select your batch type</option>
+                          <option value="batch one">Batch One</option>
+                          <option value="batch two">Batch Two</option>
+                        </select>
+                        <div
+                          class="invalid-feedback"
+                          *ngIf="
+                            camp_step &&
+                            campDetails.controls.camp_complite.errors
+                          "
+                        >
+                          <div
+                            style="min-width: 140px"
+                            *ngIf="camp.camp_complite.errors?.required"
+                          >
+                            Please Select Camp Complited Level
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6 mr-auto">
+                      <div class="form-group font_style">
+                        <label for="role_name">Role name*</label>
+                        <input
+                          name="role_name"
+                          [ngClass]="{
+                            'is-invalid': camp_step && camp.role_name.errors
+                          }"
+                          formControlName="role_name"
+                          placeholder="Enter Role..."
+                          type="text"
+                        />
+
+                        <div
+                          class="invalid-feedback"
+                          *ngIf="
+                            camp_step && campDetails.controls.role_name.errors
+                          "
+                        >
+                          <div
+                            style="min-width: 140px"
+                            *ngIf="camp.role_name.errors?.required"
+                          >
+                            Please insert Role Name
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mr-auto" *ngIf="cityDrop">
+                      <div class="form-group font_style">
+                        <label for="commit_name">Committee*</label>
+                        <input
+                          name="commit_name"
+                          [ngClass]="{
+                            'is-invalid': camp_step && camp.commit_name.errors
+                          }"
+                          formControlName="commit_name"
+                          placeholder="Enter Commitee..."
+                          type="text"
+                        />
+
+                        <div
+                          class="invalid-feedback"
+                          *ngIf="
+                            camp_step && campDetails.controls.commit_name.errors
+                          "
+                        >
+                          <div *ngIf="camp.commit_name.errors?.required">
+                            Please insert Commitee Name
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mr-auto">
+                      <div class="form-group font_style">
+                        <label for="prasent_res">
+                          Present responsibility in SPYSS
+                        </label>
+                        <input
+                          name="prasent_res"
+                          [ngClass]="{
+                            'is-invalid': camp_step && camp.prasent_res.errors
+                          }"
+                          formControlName="prasent_res"
+                          placeholder="Enter Prasent Responsibility"
+                          type="text"
+                        />
+
+                        <div
+                          class="invalid-feedback"
+                          *ngIf="
+                            camp_step && campDetails.controls.prasent_res.errors
+                          "
+                        >
+                          <div
+                            style="min-width: 140px"
+                            *ngIf="camp.prasent_res.errors?.required"
+                          >
+                            Please insert Present Responsibility
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6"></div>
+                  </div>
+                  <div class="align_right_btn">
+                    <span (click)="previous()" name="previous" class="back_btn">
+                      Back
+                    </span>
+
+                    <button
+                      (click)="submit()"
+                      type="submit"
+                      name="submit"
+                      class="btn btn action-button rounded-0"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </fieldset>
+              </form>
+              <!-- camp details form section end-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

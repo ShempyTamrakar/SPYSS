@@ -1,0 +1,4 @@
+<app-header></app-header>
+<app-side-icon  *ngIf="router.url!=='/login'&&router.url!=='/signup'"></app-side-icon>
+<router-outlet></router-outlet>
+<app-footer  *ngIf="router.url!=='/login'&&router.url!=='/signup'"></app-footer>

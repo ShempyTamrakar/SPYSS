@@ -1,0 +1,299 @@
+body {
+  font-family: "Outfit-R";
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.main_top_section {
+  position: relative;
+}
+.bg_section {
+  background-color: #fef6f1;
+  width: 100%;
+}
+
+.bg_img {
+  text-align: end;
+}
+.sub_section {
+  position: absolute;
+  top: 0;
+}
+.otp_login {
+  width: 200px;
+  height: 100px;
+}
+/* login page css start here */
+.py_90 {
+  padding: 90px 0;
+}
+.bg_light {
+  background-color: #fef6f1;
+}
+.right_login_box {
+  padding: 20px 25px;
+  background-color: #f26000;
+  min-height: 765px;
+}
+.back_btn {
+  color: #fff;
+  position: relative;
+}
+.back_btn_login_type {
+  color: black;
+  position: relative;
+  margin-bottom: 42px;
+}
+.login_text_box {
+  margin-top: 90px;
+}
+.login_text_box .login_title {
+  color: #fff;
+  font-size: 35px;
+  font-family: "Outfit-B";
+  white-space: nowrap;
+}
+
+.main_otp_section {
+  width: 420px;
+  right: -16px;
+  position: relative;
+}
+.single_otp_section {
+  width: 90px;
+  height: 60px;
+  margin-right: 20px;
+  background-color: #f1f1f1;
+  border-radius: 0;
+  border-color: #f1f1f1;
+  font-size: 20px;
+  color: #000000;
+}
+
+input.single_otp_section:focus {
+  background-color: #ffffff;
+  border: solid 1.5px #f26000;
+}
+
+.login_title .vertical_border {
+  width: 100%;
+  margin-left: 20px;
+  border: 2px dashed #fff;
+  opacity: 0.5;
+}
+.login_sub_title {
+  color: #fff;
+}
+.chakra_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.top_bg_swastik {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bottom_bg_swastik {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.login_form {
+  background-color: #fff;
+  height: 644px;
+  width: 704px;
+  padding: 60px 40px;
+  margin: 60px 0px;
+  left: -50px;
+  position: relative;
+}
+
+.login_sub_heading h2 {
+  color: #f26000;
+}
+.login_sub_heading span {
+  color: #111010;
+}
+.login_sub_heading h1 {
+  color: #2d4356;
+}
+.login_sub_heading p {
+  color: #111010;
+}
+
+.label_style {
+  color: #111010;
+}
+.form_control {
+  height: calc(1.9em + 0.75rem + 2px);
+}
+
+.bottom_login_btn {
+  background-color: #f26000;
+  min-width: 250px;
+  min-height: 54px;
+  color: #fff;
+  font-size: 18px;
+  font-family: "RedHotDisplay-B";
+}
+.login_bottom_head p {
+  color: #6c757d;
+}
+.login_bottom_head a {
+  color: #006fff;
+}
+
+.eye_section {
+  position: absolute;
+  top: 37px;
+  right: 15px;
+  font-size: 22px;
+}
+.eye_section span {
+  color: #6C757D;
+  cursor: pointer;
+}
+
+/* //////custome checkbox Start //////*/
+.checkmark {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #eee;
+  position: absolute;
+}
+.container_check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* On mouse-over, add a grey background color */
+.container_check:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container_check input:checked ~ .checkmark {
+  background-color: #f26000;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container_check input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container_check .checkmark:after {
+  left: 6px;
+  top: 4px;
+  width: 3px;
+  height: 6px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+span.checkmark:before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #f26000;
+  border-radius: 50%;
+  top: -5px;
+  left: -5px;
+}
+
+input.form_control.form-control.rounded-0:active,
+input.form_control.form-control.rounded-0:focus,
+input.form_control.form-control.rounded-0:visited {
+  background: none;
+  box-shadow: none;
+  border-width: 2px;
+  border-color: #f26000;
+}
+input.form_control.form-control.rounded-0 {
+  background-color: #f1f1f1;
+}
+
+.check_recover_section {
+  top: 8px;
+  position: relative;
+}
+
+/* //////custome checkbox End //////*/
+
+.btn_second_form input:focus {
+  padding: 13px;
+  border: 1.5px solid #f26000;
+  background-color: #fff1e6;
+  color: #f26000;
+  font-size: 17px;
+  font-family: "redhat-R";
+  outline-width: 0;
+}
+.btn_second_form input {
+  padding: 13px;
+  border: 1.5px solid #f1f1f1;
+  background-color: #f1f1f1;
+  color: #6c757d;
+  font-size: 17px;
+  font-family: "redhat-R";
+  outline-width: 0;
+}
+.login_type_icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: auto;
+  left: 15px;
+  width: 45px;
+  height: 45px;
+  background-color: #f1f1f1;
+}
+.login_type_label {
+  display: flex;
+  padding: 13px 15px;
+  border: 1px solid #e1e1e1;
+  padding-left: 75px;
+  cursor: pointer;
+}
+.login_type_label:hover {
+  background-color: #fef1e9;
+  border-color: #f26000;
+}
+.login_type_label:hover .login_type_icon {
+  background-color: #f26000;
+}
+
+.login_type_item .login_type_label span .active_icon {
+  position: absolute;
+  opacity: 0;
+}
+.login_type_item .login_type_label:hover span .active_icon {
+  opacity: 1;
+}
+.login_type_item .login_type_label:hover span .regular_icon {
+  opacity: 0;
+}
+img.active_icon {
+  position: absolute;
+  opacity: 0;
+}

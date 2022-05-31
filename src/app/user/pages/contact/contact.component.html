@@ -1,0 +1,212 @@
+<link rel="stylesheet" href="../../../../assets/styles.css" />
+
+<div
+  class="login_page bg_light d-inline-block w-100 py_90 position-relative overflow-hidden"
+>
+
+<!--Contact form start-->
+  <div class="container">
+    <section>
+      <div><img src="../../../../assets/Images/chakra_who_we_are.png" class="who_v_r_right" alt=""></div>
+    </section>
+    <form >
+      <div class="row">   
+       <div class="col-md-5">
+          <div  height= "795"
+          width = "469" class="right_login_box position-relative">
+          <img
+              src="../../../../assets/Images/contact_form_swasrik.png"
+              class="mid_bg_swastik"
+              alt="" height="87" width="87"
+            />
+            <img
+              src="../../../../assets/login_section/Mask Group 14.png"
+              class="top_bg_swastik"
+              alt=""
+            />
+            <img
+              src="../../../../assets/login_section/Mask Group 15.png"
+              class="bottom_bg_swastik"
+              alt=""
+            />
+          <!--here chakras logo-->
+            <div class="login_text_box d-inline-block w-100">
+              <h1
+                class="login_title d-inline-flex align-items-center w-100 mb-3 font_35 redhat_B"
+              >
+                SPYSS <span class="vertical_border"></span>
+              </h1>
+              <p class="login_sub_title font_20 redhat_SB">
+                Get in Touch
+                <br class="mb-0" />
+                Enter your basic details in the form and click 
+                <br class="mb-0" />
+                on the submit button.
+                <br class="mb-0" />
+                Our team will reach you in 24 Hours.
+              </p>
+              <br class="mb-0" />
+              <div class="contact_details_info">
+                
+                  <div class="contact_details">
+                    
+                    <div class="d-flex align-items-start">
+                      <div>
+                        <img src="../../../../assets/Images/email.png" class="img-fluid me-3" alt="">
+                      </div>                    
+                      <div class="text-white align-items-start">
+                       <span class="font_20 redhat_SB">Mail to Us</span> 
+                        <p class="font_16 redhat_SB text-white">
+                          Our friendly team is here to help
+                          <br class="mb-0" />
+                         info@spyss.org
+                        </p>
+                      </div>
+                    </div>
+                    <div>
+                    
+                        </div>
+<br>
+<div class="d-flex align-items-start">
+  <div>
+    <img src="../../../../assets/Images/contact.png" class="img-fluid me-3" alt="">
+  </div>                    
+  <div class=" font_20 redhat_SB text-white align-items-start">
+    <span class="">Phone</span> 
+    <p class="font_16 redhat_SB text-white d-flex justify-content-start">
+      Mon-Fri from 8am to 6pm.
+      <br class="mb-0" />
+      +91-9826543211
+       </p>
+  </div>
+</div>
+<div>
+  
+    </div>
+               
+<br>
+                
+                  <div class="d-flex align-items-center">
+                    <div>
+                      <img src="../../../../assets/Images/location.png" class="img-fluid me-3" alt="">
+                    </div>                    
+                    <div class=" font_20 redhat_SB text-white align-items-center">
+                      Office
+                    </div>
+                  </div>
+                  <div>
+                    <p class="font_16 redhat_SB text-white d-flex justify-content-center">
+                      Come say hello at our office HQ
+                      <br class="mb-0" />
+                      SHRI PATHANJALI YOGA MANDIRA,
+                      <br class="mb-0" />
+                      Near Bailanjaneya temple,Hanumantpura,
+                      <br class="mb-0" />
+                      Tumkur, Karnataka, INDIA.
+                    </p>
+                      </div>
+
+                  </div>                  
+        
+            </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-7">   
+          <div class="login_form">
+            <div class="login_sub_heading font_28 redhat_B">
+              <h2 class="login_sub_heading redhat_B">SPYSS Contact <span class="redhat_SB" >Form</span></h2>
+             
+              <p class="mt-2 font_20 redhat_SB">
+               Enter the basic details and Submit the Form 
+               
+              </p>
+            </div>
+
+            <div [formGroup]="contact" class="form-group mt-3" width="583" height="81">
+              <label class="font_17 redhat_SB label_style">Full Name</label>
+              <input  formControlName="fullName" placeholder="Enter your Full Name"
+               [ngClass]="{
+                'is-invalid': isSubmit && contact.controls.fullName.errors
+              }" type="text" class="form_control form-control rounded-0"/>
+              
+              <div class="invalid-feedback" *ngIf="isSubmit && contact.controls.fullName.errors">
+                
+              <div *ngIf="contact.controls.fullName.errors.required">
+                Please required FullName
+              </div>        
+              </div>
+            </div>
+       
+            <div class="form-group mt-3" width="583" height="81">
+              <label class="font_17 redhat_SB label_style">Email Address</label>
+              <input formControlName="email" placeholder="Enter your Email Address"
+              [ngClass]="{
+                'is-invalid': isSubmit && contact.controls.email.errors
+              }" type="text" class="form_control form-control rounded-0"/>
+             
+              <div class="invalid-feedback" *ngIf="isSubmit && contact.controls.email.errors">
+                 <div *ngIf="contact.controls.fullName.errors.required">
+                  Please required Email Address
+                </div> 
+                <div *ngIf="contact.controls.fullName.errors.email">
+                  Email Id is not Correct please check again
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group mt-3">
+                <label  
+                 for="message" class="font_17 redhat_SB label_style">Enter Your Message</label>
+                <textarea type="text" cols="30"  rows="5" formControlName="message" name="message" placeholder="Enter your message"
+                 class="form-control message_text"
+                 id=""
+                [ngClass]="{
+                  'is-invalid': isSubmit && contact.controls.message.errors
+                }"
+                ></textarea>
+               
+            </div>
+            
+            <br />
+            <div class="d-flex mt-3">
+              
+              <div class="ml-auto">
+                <button
+                (click)="submit()"
+                type="submit"
+                  class="btn btn rounded-0 bottom_login_btn redhat_B font_18" width="250" 
+                  height="54"
+                >
+                  Submit
+                </button>
+              </div>
+            </div>
+         
+          </div>
+        </div>
+      </div>
+    </form>
+    
+  </div>
+  <!--Contact form end-->
+<section class="py_100">
+  <div class="container py_100 text-center">
+    <img src="../../../../assets/Images/swastik.png" alt="">
+    <h3 class="primary_text_color font_42 outfit_B mision_heading">Get Direction <span
+            class="secondary_text_color outfit_B">to SPYSS</span></h3>
+        </div>
+      <div class="container get_in_touch_bottom_sec">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62202.9160441803!2d77.51314897910159!3d12.992163599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d924a8e8279%3A0xbc084f43574ecfce!2sSPYSS%20YOGA%20(Free%20Yoga%20Since%201980)%20%3A%20Siddaganga%20Branch%2C%20Basaveshwar%20Nagar!5e0!3m2!1sen!2sin!4v1648284602012!5m2!1sen!2sin"
+            width="100%" height="700" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <section>
+          <div>  <img src="../../../../assets/Images/chakra_who_we_are.png" class=" who_v_r_bottom" alt=""></div>
+        </section>
+</section>
+

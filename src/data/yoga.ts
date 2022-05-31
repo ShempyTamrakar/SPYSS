@@ -1,0 +1,33 @@
+export class Yoga{
+bandhusName:string;
+bandhusAddress:string;
+valaya:string;
+mobile:number;
+city:string;
+district:string;
+state:string;
+country:string;
+wing:string;
+all:number;
+camp:string
+fromDate:Date;
+toDate:Date;
+upValaya:string;
+    constructor(bandhusName,bandhusAddress,valaya,mobile,city,district,state,country,wing,all,camp,fromDate
+        ,toDate,upValaya){
+        this.bandhusName=bandhusName;
+        this.bandhusAddress=bandhusAddress;
+        this.valaya=valaya;
+        this.mobile=mobile;
+        this.city=city;
+        this.district=district;
+        this.state=state;
+        this.country=country;
+        this.wing=wing;
+        this.all=all;
+        this.camp=camp;
+        this.fromDate=fromDate;
+        this.toDate=toDate;
+        this.upValaya=upValaya
+    }
+}

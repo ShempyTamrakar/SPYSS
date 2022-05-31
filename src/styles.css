@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@font-face {
+    font-family: "outfit-R";
+    src: url("./assets/fonts/outfit/Outfit-Regular.ttf") format("truetype");
+    font-weight: 400;
+  }
+@font-face {
+    font-family: "outfit-M";
+    src: url("./assets/fonts/outfit/Outfit-Medium.ttf") format("truetype");
+    font-weight: 500;
+  }
+@font-face {
+    font-family: "outfit-SB";
+    src: url("./assets/fonts/outfit/Outfit-SemiBold.ttf") ;
+  }
+@font-face {
+    font-family: "outfit-B";
+    src: url("./assets/fonts/outfit/Outfit-Bold.ttf") format("truetype");
+    font-weight: 700;
+  }
+@font-face {
+    font-family: "outfit-EB";
+    src: url("./assets/fonts/outfit/Outfit-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+  }
+@font-face {
+    font-family: "redhat-R";
+    src: url("./assets/fonts/redhat/RedHatDisplay-Regular.ttf") format("truetype");
+    font-weight: 400;
+  }
+@font-face {
+    font-family: "redhat-M";
+    src: url("./assets/fonts/redhat/RedHatDisplay-Medium.ttf") format("truetype");
+    font-weight: 500;
+  }
+@font-face {
+    font-family: "redhat-SB";
+    src: url("./assets/fonts/redhat/RedHatDisplay-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+  }
+@font-face {
+    font-family: "redhat-B";
+    src: url("./assets/fonts/redhat/RedHatDisplay-Bold.ttf") format("truetype");
+    font-weight: 700;
+  }
+@font-face {
+    font-family: "redhat-EB";
+    src: url("./assets/fonts/redhat/RedHatDisplay-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+  }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

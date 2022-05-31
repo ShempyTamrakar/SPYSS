@@ -1,0 +1,147 @@
+body {
+    font-family: "Outfit-R";
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .main_top_section {
+    position: relative;
+  }
+  .bg_section {
+    background-color: #fef6f1;
+    width: 100%;
+  }
+  
+  .bg_img {
+    text-align: end;
+  }
+  .sub_section {
+    position: absolute;
+    top: 0;
+  }
+  
+  /* login page css start here */
+  .py_90 {
+    padding: 90px 0;
+  }
+  .bg_light {
+    background-color: #fef6f1;
+  }
+  .right_login_box {
+    padding: 20px 25px;
+    background-color: #f26000;
+  min-height: 765px;
+   
+  }
+  .back_btn {
+    color: #fff;
+  }
+  .login_text_box {
+    margin-top: 90px;
+  }
+  .login_text_box .login_title {
+    color: #fff;
+    font-size: 35px;
+    font-family: "Outfit-B";
+    white-space: nowrap;
+  }
+  .login_title .vertical_border {
+    width: 100%;
+    margin-left: 20px;
+    border: 2px dashed #fff;
+    opacity: 0.5;
+  }
+  .login_sub_title {
+    color: #fff;
+  }
+  .chakra_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .top_bg_swastik {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .mid_bg_swastik {
+    position: absolute;
+    top: 2;
+    left: 1;
+  }
+  .bottom_bg_swastik {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .login_form {
+    background-color: #fff;
+    height: 680;
+    width: 699;
+    padding: 60px 40px;
+    margin: 60px 0px;
+    left: -50px;
+    position: relative;
+  }
+  
+  .login_sub_heading h2 {
+    color: #f26000;
+  }
+  .login_sub_heading span {
+    color: #111010;
+  }
+  .login_sub_heading h1 {
+    color: #2d4356;
+  }
+  .login_sub_heading p {
+    color: #111010;
+  }
+  
+  .label_style {
+  color: #111010;
+  }
+  .form_control {
+    height: calc(1.9em + 0.75rem + 2px);
+  }
+  
+  .bottom_login_btn {
+    background-color: #f26000;
+    min-width: 250px;
+    min-height: 54px;
+    color: #fff;
+    font-size: 18px;
+    font-family: "RedHotDisplay-B";
+  }
+ 
+ 
+  
+  input.form_control.form-control.rounded-0:active,
+  input.form_control.form-control.rounded-0:focus,
+  input.form_control.form-control.rounded-0:visited {
+    background: none;
+    box-shadow: none;
+    border-width: 2px;
+    border-color: #f26000;
+    height: 53;
+    width: 583;
+  }
+  input.form_control.form-control.rounded-0 {
+    background-color: #f1f1f1;
+  }
+  
+  textarea.message_text:active,
+  textarea.message_text:focus,
+  textarea.message_text:visited {
+    background: none;
+    box-shadow: none;
+    border-width: 2px;
+    border-color: #f26000;
+    height: 128;
+    width: 638.9;
+  }
+  .message_text{
+ background: #f1f1f1;
+  }

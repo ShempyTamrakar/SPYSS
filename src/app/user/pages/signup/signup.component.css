@@ -1,0 +1,468 @@
+.form_input {
+  margin-left: 20%;
+  position: absolute;
+  width: 80%;
+}
+
+.py_80 {
+  padding: 90px 0;
+}
+.bg_light {
+  background-color: #fef6f1;
+}
+@media screen {
+  .main_section {
+    background-color: #ffffff;
+    padding: 0 30px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 20px rgb(0 0 0 / 6%);
+  }
+}
+.signup_sub_heading {
+  padding: 35px 0px 16px 0px;
+  color: #f26000;
+  line-height: 22px;
+  border-bottom: 1px solid #e1e1e1;
+}
+.signup_sub_heading span {
+  color: #2d4356;
+}
+
+.signup_sub_heading p {
+  color: #2d4356;
+  margin-top: 10px;
+}
+.sign_sub_heading {
+  padding: 35px 0px;
+  right: 44px;
+  position: relative;
+}
+.border_sign {
+  border-bottom: 1.5px solid #e6e6e6;
+  width: 256%;
+  position: absolute;
+  margin-top: 5px;
+}
+
+.steps {
+  display: flex;
+  width: 45px;
+  height: 45px;
+  background-color: #fff1e6;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  position: absolute;
+  right: -22px;
+}
+
+.sub_head_right .personal_details_class.active span {
+  background-color: #f26000;
+}
+
+.sub_head_right {
+  right: 0;
+  position: STATIC;
+  top: 0;
+  padding: 49px 0 0;
+}
+img.active_img {
+  display: none;
+}
+
+.personal_details_class.active .steps .regular {
+  display: none;
+}
+
+.personal_details_class.active .steps .active_img {
+  display: block;
+}
+.detail_sub_heading {
+  position: relative;
+  top: 0;
+  display: block;
+  width: 100%;
+  text-align: right;
+  padding-right: 34px;
+}
+.detail_sub_heading h2 {
+  color: #2d4356;
+}
+.detail_sub_heading h3 {
+  color: #6c757d;
+}
+
+.sub_head_left {
+  /* display: inline-block; */
+  /* width: 100%; */
+  /* padding: 49px 0px 0; */
+  padding-bottom: 11px;
+}
+
+.step_heading {
+  padding: -7px;
+  position: relative;
+  bottom: 13px;
+  font-family: "outfit-B";
+}
+.step_heading span {
+  font-size: 14px;
+  color: #111010;
+  font-family: "outfit-B";
+}
+.step_heading h2 {
+  font-size: 22px;
+  color: #f26000;
+  font-family: "outfit-B";
+}
+.step_heading .detail_heading {
+  color: #2d4356;
+  font-size: 22px;
+}
+.step_heading .fill_heading {
+  font-size: 16px;
+  color: #6c757d;
+  font-family: "redhat-R";
+  padding: 5px 0px;
+  left: -9px;
+  position: relative;
+}
+.verticle_line {
+  height: 45px;
+  width: 1px;
+  display: block;
+  margin-left: auto;
+  margin-right: 22px;
+  background-color: #fff1e6;
+  display: none;
+}
+.font_style {
+  color: #111010;
+  font-family: "redhat-SB";
+  font-size: 17px;
+}
+.ragister_divider {
+  padding-top: 64px;
+}
+.ragister_divider:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 1px;
+  height: 100%;
+  margin: auto;
+  background-color: #e6e6e6;
+}
+.ragister_divider .personal_details_class {
+  height: 94px;
+}
+.ragister_divider .stepsSecond {
+  right: 0;
+  left: 0;
+  margin: auto;
+  z-index: 9;
+}
+/* // custom checkbox css start here / */
+
+.checkmark {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.plan .plan-content {
+  display: flex;
+  width: 127px;
+  height: 49px;
+  box-sizing: border-box;
+  border: 1px solid #f1f1f1;
+  background-color: #f1f1f1;
+  transition: box-shadow 0.4s;
+  align-items: center;
+  justify-content: center;
+}
+
+.plan input[type="radio"]:checked + .plan-content span {
+  color: #f26000;
+  font-size: 17px;
+  font-family: "redhat-R";
+  text-align: center;
+  padding: 0px 5px;
+}
+
+.plan .plan-content span {
+  color: #6c757d;
+  font-size: 17px;
+  font-family: "redhat-R";
+
+  text-align: center;
+  padding: 0px 5px;
+}
+
+.plan input[type="radio"]:checked + .plan-content {
+  border-color: #f26000;
+  background-color: #fff1e6;
+  padding: 0px 5px;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+/*creating outline */
+
+/* / radio image css / */
+.plan input[type="radio"]:checked + .plan-content span .regular_icon {
+  display: none;
+}
+.plan input[type="radio"]:checked + .plan-content span .active_icon {
+  opacity: 1;
+}
+img.active_icon {
+  position: absolute;
+  opacity: 0;
+}
+
+input#male {
+  display: none;
+}
+
+input#female {
+  display: none;
+}
+
+/* / custom checkbox css end here / */
+
+/* steps second basic details start */
+/* #msform .btn_second_form input:focus, */
+#msform .btn_second_form input:focus {
+  padding: 13px;
+  border: 1.5px solid #f26000;
+  background-color: #fff1e6;
+  color: #f26000;
+  font-size: 17px;
+  font-family: "redhat-R";
+  outline-width: 0;
+}
+#msform .btn_second_form input {
+  padding: 13px;
+  border: 1.5px solid #f1f1f1;
+  background-color: #f1f1f1;
+  color: #6c757d;
+  font-size: 17px;
+  font-family: "redhat-R";
+  outline-width: 0;
+}
+
+/* steps second basic details end */
+
+/* steps third contact details start*/
+.type_none input::-webkit-outer-spin-button,
+.type_none input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+/* steps third contact details end*/
+
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+  display: none;
+}
+
+/*inputs*/
+#msform input,
+#msform textarea,
+#msform select {
+  padding: 14px;
+  width: 100%;
+  border-radius: 0px;
+  box-shadow: none;
+  border: 0px solid #f1f1f1;
+  background-color: #f1f1f1;
+  color: #6c757d;
+  font-size: 17px;
+  font-family: "redhat-R";
+}
+
+#msform input:focus,
+#msform textarea:focus,
+#msform select:focus {
+  padding: 14px;
+  width: 100%;
+  border-radius: 0px;
+  box-shadow: none;
+  border: 1.5px solid #f26000;
+  background-color: #ffffff;
+  outline-width: 0;
+  font-size: 17px;
+  font-family: ".redhat-R";
+}
+.action-button {
+  width: 160px;
+  min-height: 54px;
+  position: relative;
+  background: #f26000;
+  color: white;
+  box-shadow: none;
+}
+
+.action-button:hover,
+.action-button:focus {
+  width: 160px;
+  min-height: 54px;
+  position: relative;
+  background: #f26000;
+  color: white;
+  box-shadow: none;
+}
+
+#msform .action-button-previous {
+  width: 100px;
+  background: #c5c5f1;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 25px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 5px;
+}
+.align_right_btn {
+  text-align: end;
+  margin-top: 30px;
+}
+.back_btn {
+  margin: 0px 23px;
+  font-family: "redhat-SB";
+  font-size: 17px;
+  color: #15181a;
+}
+.fs-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.fs-subtitle {
+  font-weight: normal;
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/*progressbar steps css start*/
+#progressbar {
+  margin-bottom: 30px;
+  overflow: hidden;
+  counter-reset: step;
+}
+
+#progressbar li {
+  list-style-type: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: calc(100% - 28px);
+  padding-bottom: 54px;
+  margin-right: 0;
+  border-right: 1px solid #fff1e6;
+
+  transition: 2s 0.5s;
+}
+#progressbar .personal_details_class.active {
+  border-right: 1px solid #f26000;
+  transition: 2s 0.5s;
+}
+.stepsSecond {
+  display: flex;
+  width: 16px;
+  height: 15px;
+  background-color: #e6e6e6;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  position: absolute;
+}
+.personal_details_class.active span {
+  background-color: #f26000;
+}
+.sub_head_second {
+  right: 23px;
+  position: relative;
+  bottom: 15px;
+}
+#progressbarSecond li {
+  list-style-type: none;
+  color: black;
+  font-size: 9px;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+#progressbarSecond li:first-child:after {
+  content: none;
+}
+
+#progressbarSecond li:after {
+  display: none;
+}
+
+#progressbar li:first-child:after {
+  content: none;
+}
+
+@-webkit-keyframes slidein {
+  from {
+    margin-right: 100%;
+    width: 300%;
+  }
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+
+@-moz-keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@-o-keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
